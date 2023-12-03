@@ -117,6 +117,18 @@
             <name>Chef</name>
             <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
         </Chef>
+        <AirlineRep>
+            <name>Sales Rep</name>
+            <description>Assign Sales Reps to airlines to improve communication and trust! Throughout the day, they will earn better communication with the airline. However, to get the most out of this, you will need to build conference rooms where meetings can be set up automatically.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -124,6 +136,7 @@
             <ConveyorTransition>Transport transitie</ConveyorTransition>
             <Stairs>Trap</Stairs>
             <Escalator>Roltrap</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <RunwayApproachLights>
             <name>Naderingslichten voor startbaan</name>
@@ -704,10 +717,6 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Hot Plate</name>
             <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
         </HotPlate>
-        <ArcadeDriving>
-            <name>Arcade Driver Game</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
-        </ArcadeDriving>
         <RoadRampUp>
             <name>Road Ramp Up</name>
             <description>Allows roads to transition up a single level.</description>
@@ -801,6 +810,162 @@ Helpt passagiers om verveling en frustratie te vermijden, maar kost veel geld om
             <name>Asphalt Runway</name>
             <description>Asphalt runways are not quite as good, but still not bad.</description>
         </AsphaltRunway>
+        <OneWayPath>
+            <name>One Way Path</name>
+            <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Reception Desk</name>
+            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+        </ReceptionDesk>
+        <BaggageCarouselSameLevel>
+            <name>Baggage Carousel (same level)</name>
+            <description>Connects to same level conveyor system for an automated baggage solution.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Baggage Carousel (from above)</name>
+            <description>Connects to conveyor system one level above for an automated baggage solution.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Large Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Large Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Large Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Conveyor Transition</name>
+            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+        </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
+        <Crosswalk>
+            <name>Cross Walk</name>
+            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+        </Crosswalk>
+        <AircraftGateRemote>
+            <name>Aircraft Gate (L, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateRemote>
+        <AircraftGateLargeRemote>
+            <name>Aircraft Gate (XL, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateLargeRemote>
+        <DLCBench>
+            <name>Bench D</name>
+            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+        </DLCBench>
+        <DLCBushA>
+            <name>Decorative Bush 9</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushA>
+        <DLCBushB>
+            <name>Decorative Bush 10</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushB>
+        <DLCBushC>
+            <name>Decorative Bush 11</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushC>
+        <DLCBushD>
+            <name>Decorative Bush 12</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushD>
+        <DLCCactus>
+            <name>Cactus</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCCactus>
+        <DLCDecorA>
+            <name>Planter A</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorA>
+        <DLCDecorB>
+            <name>Planter B</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorB>
+        <DLCPalm>
+            <name>Decorative Palm</name>
+            <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
+        </DLCPalm>
+        <DLCPine>
+            <name>Decorative Pine</name>
+            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+        </DLCPine>
+        <DLCStatueA>
+            <name>Decorative Statue C</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueA>
+        <DLCStatueB>
+            <name>Decorative Statue D</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueB>
+        <DLCStatueC>
+            <name>Decorative Statue E</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueC>
+        <DLCTicketingDesk>
+            <name>Ticketing Desk B</name>
+            <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
+        </DLCTicketingDesk>
+        <DLCTicketingKiosk>
+            <name>Ticketing Kiosk B</name>
+            <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
+        </DLCTicketingKiosk>
+        <DLCTreeA>
+            <name>Tree4</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeA>
+        <DLCTreeB>
+            <name>Tree5</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeB>
+        <DLCTreeC>
+            <name>Tree6</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeC>
+        <DLCTreeD>
+            <name>Tree7</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeD>
+        <DLCTreeE>
+            <name>Tree8</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeE>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>

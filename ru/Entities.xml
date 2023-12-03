@@ -3,19 +3,19 @@
     <Agents>
         <CFO>
             <name>Финансовый директор</name>
-            <description>Финансовый директор (CFO) - Открывает исследования в сфере финансов, например, банковские кредиты и расширенные финансовые отчеты.</description>
+            <description>Финансовый директор (CFO) — Открывает исследования в сфере финансов, например, банковские кредиты и расширенные финансовые отчеты.</description>
         </CFO>
         <COO>
             <name>Операционный директор</name>
-            <description>Операционный директор (COO) - Открывает исследования и новые возможности в сферах эксплуатации и логистики.</description>
+            <description>Операционный директор (COO) — Открывает исследования и новые возможности в сферах эксплуатации и логистики.</description>
         </COO>
         <CTO>
             <name>Технический директор</name>
-            <description>Технический директор (CTO) - Открывает технологические исследования, а также позволяет размещать систему звукового информирования и другие объекты.</description>
+            <description>Технический директор (CTO) — Открывает технологические исследования, а также позволяет размещать систему звукового информирования и другие объекты.</description>
         </CTO>
         <FinanceVP>
             <name>Вице-президент по финансам</name>
-            <description>Вице-президент по финансам - Открывает исследования в сфере оптимизации налогообложения.</description>
+            <description>Вице-президент по финансам — Открывает исследования в сфере оптимизации налогообложения.</description>
         </FinanceVP>
         <FlightAttendant>
             <name>Бортпроводник</name>
@@ -63,7 +63,7 @@
         </VendorWorker>
         <Workman>
             <name>Строитель</name>
-            <description>Выполняет все строительные задачи.</description>
+            <description>Выполняет все строительные задачи. Пятилетку в три года!</description>
         </Workman>
         <BaggageCar>
             <name>Багажный трактор</name>
@@ -110,13 +110,25 @@
             <description />
         </SupplyTruck>
         <KioskWorker>
-            <name>Retail Worker</name>
-            <description>Serves products to customers at kiosk stands and stores.</description>
+            <name>Продавец-кассир</name>
+            <description>Обслуживает клиентов в киосках и магазинах.</description>
         </KioskWorker>
         <Chef>
-            <name>Chef</name>
-            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+            <name>Шеф-повар</name>
+            <description>Готовит еду на кухне и доставляет ее в точки продажи.</description>
         </Chef>
+        <AirlineRep>
+            <name>Представитель авиакомпании</name>
+            <description>Назначьте представителей авиакомпаний, чтобы улучшить общение и доверие! Они будут выстраивать дружбу с авиакомпаниями. Но для максимального эффекта необходимо иметь конференц-залы, где будут проходить встречи сотрудников.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Поезд</name>
+            <description />
+        </LightRailTrain>
+        <ApronBus>
+            <name>Перронный автобус</name>
+            <description>Доставит пассажиров от здания аэровокзала к удалённой стоянке.</description>
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -124,6 +136,7 @@
             <ConveyorTransition>Переход конвейера</ConveyorTransition>
             <Stairs>Лестница</Stairs>
             <Escalator>Эскалатор</Escalator>
+            <AircraftGateRemote>Удалённая стоянка</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Грязный пол</name>
@@ -141,11 +154,11 @@
         </RunwayILS>
         <RunwayLights>
             <name>Огни подсветки ВПП</name>
-            <description>Огни ВПП позволяют аэропорту работать в темное время суток.</description>
+            <description>Огни ВПП позволяют аэропорту работать в темное время суток. размещаются перед началом ВПП с обеих сторон.</description>
         </RunwayLights>
         <RunwayPAPI>
             <name>Огни глиссады PAPI</name>
-            <description>Огни глиссады PAPI показывают пилотам верную траекторию снижения, что увеличивает безопасность полетов. Увеличивает допустимый боковой ветер с 12 до 15 узлов.</description>
+            <description>Огни глиссады PAPI показывают пилотам верную траекторию снижения, что увеличивает безопасность полетов. Увеличивает допустимый боковой ветер с 12 до 15 узлов. Размещаются сбоку у начала ВПП, по возможности с левой стороны (см. подсказки в интернете). Светят в пилота самолёта, заходящего на посадку.</description>
         </RunwayPAPI>
         <Windsock>
             <name>Указатель ветра</name>
@@ -188,11 +201,11 @@
             <description>Соединяется с подземной системой конвейеров для автоматической выдачи багажа пассажирам.</description>
         </BaggageCarousel>
         <Bar-Large>
-            <name>Бар - Большой</name>
+            <name>Бар — Большой</name>
             <description />
         </Bar-Large>
         <Bar-Small>
-            <name>Бар - Малый</name>
+            <name>Бар — Малый</name>
             <description />
         </Bar-Small>
         <Bench>
@@ -204,11 +217,11 @@
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>Скамья B - 2 места</name>
+            <name>Скамья B — 2 места</name>
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>Скамья B - 3 места</name>
+            <name>Скамья B — 3 места</name>
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchB-3Seat>
         <BenchC>
@@ -216,11 +229,11 @@
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>Скамья C - 2 места</name>
+            <name>Скамья C — 2 места</name>
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>Скамья C - 3 места</name>
+            <name>Скамья C — 3 места</name>
             <description>Делает пассажиров счастливыми, позволяя им расслабиться в ожидании рейса.</description>
         </BenchC-3Seat>
         <BodyScanner>
@@ -397,7 +410,7 @@
         </GarbageBin>
         <GateAgentDesk>
             <name>Стойка выхода на посадку</name>
-            <description>Используется пассажирами и экипажами для выхода на посадку в самолет. Необходима для каждой стоянки типа Гейт..</description>
+            <description>Используется пассажирами и экипажами для выхода на посадку в самолет. Необходима для прохода пассажиров в самолёт на каждой стоянке.</description>
         </GateAgentDesk>
         <HealthFoodKiosk>
             <name>Здоровая еда</name>
@@ -559,7 +572,7 @@
         </TicketingDesk>
         <TicketingKiosk>
             <name>Стойка самостоятельной регистрации</name>
-            <description>Пассажиры, которые не имеют крупного багажа, могут использовать автоматическую стойку регистрации для распечатки посадочного талона без помощи со стороны сотрудника аэропорта.</description>
+            <description>Пассажиры, которые не имеют крупного багажа, могут использовать автоматическую стойку регистрации для распечатки посадочного талона без помощи сотрудников аэропорта.</description>
         </TicketingKiosk>
         <ToiletStall>
             <name>Туалетная кабина</name>
@@ -649,177 +662,329 @@
             <description>Позволяет пассажирам быстрее перемещаться на длинные расстояния.</description>
         </MovingWalkway>
         <FlightInfoDisplayXL>
-            <name>Flight Info Display XL</name>
-            <description>A larger flight information display unit with improved area of effect.</description>
+            <name>Табло информации о рейсах XL</name>
+            <description>Увеличенное табло с большей зоной действия.</description>
         </FlightInfoDisplayXL>
         <FlightInfoServer>
-            <name>Flight Info Server</name>
-            <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
+            <name>Сервер информации о рейсах</name>
+            <description>Связывает все информационные табло, обеспечивая их бесперебойную работу в вашем аэропорту.</description>
         </FlightInfoServer>
         <ArcadeDriver>
-            <name>Arcade Driver Game</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
+            <name>Игровой автомат — гонки</name>
+            <description>Забавно же - пассажиры платят вам за то, чтоб быстрее всех пройти всю трассу!</description>
         </ArcadeDriver>
         <ArcadeRetro>
-            <name>Arcade Retro Game</name>
-            <description>A blast from the past!  Pax need to keep away from the ghostly monsters, until they start blinking!  A good time for all involved.</description>
+            <name>Игровой автомат — ретро</name>
+            <description>Орудие прошлого! Игрокам нужно бежать от призрачных монстров, пока они не исчезнут! Самое время!.</description>
         </ArcadeRetro>
         <ArcadeBlaster>
-            <name>Arcade Blaster Game</name>
-            <description>Aliens are no match for your bored pax - frustration will be relieved in no time with this one.</description>
+            <name>Игровой автомат — бластер</name>
+            <description>Пришельцы не сравнимы со скучающими пассажирами - апатия быстро пройдёт!</description>
         </ArcadeBlaster>
         <ArcadePinball>
-            <name>Arcade Pinball Game</name>
-            <description>Pax will be nostalgic over this gem!</description>
+            <name>Игровой автомат — пинбол</name>
+            <description>Народ с удовольствием поностальгирует по этому раритету!</description>
         </ArcadePinball>
         <DigitalAdDisplay>
-            <name>Digital Ad Display</name>
-            <description>Though maybe annoying to the pax (negative environment impact), it will bring in some extra revenue.  How much depends on how much foot traffic is nearby!</description>
+            <name>Рекламный монитор</name>
+            <description>Хоть это и может расстроить людей, зато приносит дополнительный доход, зависящий от того, сколько людей находится поблизости!</description>
         </DigitalAdDisplay>
         <DrinkVending>
-            <name>Drink Vending</name>
-            <description>Passengers get thirsty and this is one solution to the problem.  Plus, a little extra revenue never hurts (make sure to set the price accordingly)!</description>
+            <name>Автомат с напитками</name>
+            <description>Пассажиры в аэропорту нередко испытывают жажду, и это одно из решений проблемы. Плюс немного дополнительного дохода никогда не повредит (убедитесь, что установили цену гуманно)!</description>
         </DrinkVending>
         <FlightInfoKiosk>
-            <name>Flight Info Kiosk</name>
-            <description>Passengers often need help finding where they're going so that they can make their flight on time, and these machines are the absolute gold standard.  The bell might not save them, but it's all right - with this kiosk they'll be at the corner just in time!</description>
+            <name>Стойка информации о рейсах</name>
+            <description>Пассажирам часто нужна помощь в поиске верного выхода на посадку, и эти штуки - очень помогут им. Колокол может не спасти их, но с этим киоском они будут на месте как раз вовремя!</description>
         </FlightInfoKiosk>
         <BoosterPanel>
-            <name>Booster Panel</name>
-            <description>Provides additional sorting capacity to your Baggage Hubs so that they are able to sort more bags per minute.  Limit 2 per Baggage Hub.</description>
+            <name>Бустер</name>
+            <description>Увеличивает проходимось Пункта сортировки багажа. Но не более 2х на один Пункт сортировки багажа.</description>
         </BoosterPanel>
         <FuelingStation>
-            <name>Refuel Station</name>
-            <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
+            <name>Заправочная станция</name>
+            <description>Предоставьте своим бензовозам доступ к топливу их ваших сетевых хранилищ. Позволяет оказывать услугу заправки, предлагаемую вашим аэропортом.</description>
         </FuelingStation>
         <FoodWarmer>
-            <name>Hot Food Display</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+            <name>Экран с горячими блюдами</name>
+            <description>Разместите в кафе, чтобы предложить ваши свежие продукты, приготовленные на кухне! Пассажиры берут их и идут с ними в кассу.</description>
         </FoodWarmer>
         <FoodCooler>
-            <name>Chilled Food Display</name>
-            <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
+            <name>Экран с холодными блюдами</name>
+            <description>Разместите в кафе, чтобы предложить ваши свежие продукты, приготовленные на кухне! Пассажиры берут их и идут с ними в кассу.</description>
         </FoodCooler>
         <HotPlate>
-            <name>Hot Plate</name>
-            <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
+            <name>Горячая плита</name>
+            <description>Должна быть размещена на вашей кухне, чтобы можно было готовить горячую еду и подогревать её в ожидании доставки.</description>
         </HotPlate>
-        <ArcadeDriving>
-            <name>Arcade Driver Game</name>
-            <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
-        </ArcadeDriving>
         <RoadRampUp>
-            <name>Road Ramp Up</name>
-            <description>Allows roads to transition up a single level.</description>
+            <name>Дорожная рампа — вверх</name>
+            <description>Позволяет дороге спуститься на уровень выше.</description>
         </RoadRampUp>
         <RoadRampDown>
-            <name>Road Ramp Down</name>
-            <description>Allows roads to transition down a single level.</description>
+            <name>Дорожная рампа — вниз</name>
+            <description>Позволяет дороге спуститься на уровень ниже.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
-            <name>Underground Fuel Tank</name>
-            <description>Underground fuel storage tank in an extra large form factor.  Takes up all of floors -1 and -2 wherever it is placed and requires nothing above it during construction.</description>
+            <name>Подземный топливный резервуар</name>
+            <description>Подземный резервуар для хранения топлива в очень большом форм-факторе. Занимает все подземные этажи (-1 и -2), где бы он ни находился, и требует отсутствия построек над ним во время строительства.</description>
         </UndergroundFuelTank>
-        <displaydescription>Display {0} for your passengers to buy in Store zones! Can hold {1} at a time.</displaydescription>
+        <displaydescription>{0} может быть установлена в Зоне Магазина! Можно установить {1} штук одновременно.</displaydescription>
         <BookDisplayA>
-            <name>Book Display A</name>
+            <name>Книжная витрина A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </BookDisplayA>
         <BookDisplayB>
-            <name>Book Display B</name>
+            <name>Книжная витрина B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </BookDisplayB>
         <CandyDisplayA>
-            <name>Candy Display A</name>
+            <name>Витрина сладостей A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </CandyDisplayA>
         <CandyDisplayB>
-            <name>Candy Display B</name>
+            <name>Витрина сладостей B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </CandyDisplayB>
         <MakeupDisplayA>
-            <name>Makeup Display A</name>
+            <name>Витрина косметики A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </MakeupDisplayA>
         <MakeupDisplayB>
-            <name>Makeup Display B</name>
+            <name>Витрина косметики B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </MakeupDisplayB>
         <SouvenirDisplayA>
-            <name>Souvenir Display A</name>
+            <name>Витрина сувениров A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </SouvenirDisplayA>
         <SouvenirDisplayB>
-            <name>Souvenir Display B</name>
+            <name>Витрина сувениров B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </SouvenirDisplayB>
         <SouvenirDisplayC>
-            <name>Souvenir Display C</name>
+            <name>Витрина сувениров C</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </SouvenirDisplayC>
         <ClothesDisplay>
-            <name>Clothes Display</name>
+            <name>Витрина одежды</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </ClothesDisplay>
         <ShoeDisplayA>
-            <name>Shoe Display A</name>
+            <name>Витрина обуви A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </ShoeDisplayA>
         <ShoeDisplayB>
-            <name>Shoe Display B</name>
+            <name>Витрина обуви B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </ShoeDisplayB>
         <PharmacyDisplayA>
-            <name>Pharmacy Display A</name>
+            <name>Аптечная витрина A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </PharmacyDisplayA>
         <PharmacyDisplayB>
-            <name>Pharmacy Display B</name>
+            <name>Аптечная витрина B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </PharmacyDisplayB>
         <PharmacyDisplayC>
-            <name>Pharmacy Display C</name>
+            <name>Аптечная витрина C</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </PharmacyDisplayC>
         <JewelryDisplayA>
-            <name>Jewelry Display A</name>
+            <name>Ювелирная витрина A</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </JewelryDisplayA>
         <JewelryDisplayB>
-            <name>Jewelry Display B</name>
+            <name>Ювелирная витрина B</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </JewelryDisplayB>
         <JewelryDisplayC>
-            <name>Jewelry Display C</name>
+            <name>Ювелирная витрина C</name>
             <description>Display Reuse Description DO NOT MODIFY</description>
         </JewelryDisplayC>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Concrete runways are good.</description>
+            <name>Бетонная ВПП</name>
+            <description>Хорошая, более ровная взлетно-посадочная полоса.</description>
         </ConcreteRunway>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Asphalt runways are not quite as good, but still not bad.</description>
+            <name>Асфальтированная ВПП</name>
+            <description>Асфальтированные взлетно-посадочные полосы не так хороши, но все же не ужасны.</description>
         </AsphaltRunway>
+        <OneWayPath>
+            <name>Односторонний проход</name>
+            <description>Управляйте маршрутами пассажиров при навигации по всему аэропорту. Позволяет пропускать пассажиров только в одном направлении. Тщательно планируйте использование этого инструмента и помните, что всегда должен остаться выход из вашего аэропорта в случае пропущенного рейса или чрезвычайной ситуации!</description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Ресепшн (Приёмная)</name>
+            <description>Позволяет получить доступ к защищенным зонам аэропорта. Доступ должны иметь, например, посетители, прибывающие на совещания в конференц-залы или руководители авиакомпаний, работающие в офисах.</description>
+        </ReceptionDesk>
+        <BaggageCarouselSameLevel>
+            <name>Багажная карусель (общий уровень с конвейером)</name>
+            <description>Соединяется с конвейерной системой, расположенной на том же уровне, для автоматической выдачи багажа.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Багажная карусель (для конвейера наверху)</name>
+            <description>Соединяется с конвейерной системой, расположенной на уровень выше, для автоматической выдачи багажа.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Стеклянный стол для переговоров</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Стол для переговоров из светлого дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Стол для переговоров из темного дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Большой стеклянный стол для переговоров</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Большой стол для переговоров из светлого дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Большой стол для переговоров из темного дерева</name>
+            <description>За ним руководители авиакомпаний обсудят важные вопросы с вашими представителями по продажам. Чем больше стол, тем больше сотрудников смогут беседовать одновременно!</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Лестница</name>
+            <description>Позволяет пассажирам переходить между этажами.</description>
+        </Stairs>
+        <Escalator>
+            <name>Эскалатор</name>
+            <description>Эскалатор позволяет пассажирам не напрягаясь и быстро переходить между этажами. Но только в одном направлении!</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Дорожный скат</name>
+            <description>Позволяет дороге менять уровень.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Конвейерный переход</name>
+            <description>Объект Конвейерной сети, который позволяет конвейерному сегменту переходить между этажами. Позволяет грамотно использовать пространство при проектировании сетей багажных конвейеров.</description>
+        </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Удалённая стоянка самолёта (S)</name>
+            <description>Место стоянки самолёта. Требуется автобусный перрон для доставки пассажиров от здания аэровокзала к стоянке и обратно.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Автобусный перрон</name>
+            <description>Позволяет пассажирам добраться к самолёту на удалённой стоянке и обратно. Один перрон обслуживает только одну удалённую стоянку.</description>
+        </RemoteBusPickup>
+        <Crosswalk>
+            <name>Пешеходный переход</name>
+            <description>Позволяет пассажирам переходить дорогу.</description>
+        </Crosswalk>
+        <AircraftGateRemote>
+            <name>Aircraft Gate (L, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateRemote>
+        <AircraftGateLargeRemote>
+            <name>Aircraft Gate (XL, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateLargeRemote>
+        <DLCBench>
+            <name>Bench D</name>
+            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+        </DLCBench>
+        <DLCBushA>
+            <name>Decorative Bush 9</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushA>
+        <DLCBushB>
+            <name>Decorative Bush 10</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushB>
+        <DLCBushC>
+            <name>Decorative Bush 11</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushC>
+        <DLCBushD>
+            <name>Decorative Bush 12</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushD>
+        <DLCCactus>
+            <name>Cactus</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCCactus>
+        <DLCDecorA>
+            <name>Planter A</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorA>
+        <DLCDecorB>
+            <name>Planter B</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorB>
+        <DLCPalm>
+            <name>Decorative Palm</name>
+            <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
+        </DLCPalm>
+        <DLCPine>
+            <name>Decorative Pine</name>
+            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+        </DLCPine>
+        <DLCStatueA>
+            <name>Decorative Statue C</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueA>
+        <DLCStatueB>
+            <name>Decorative Statue D</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueB>
+        <DLCStatueC>
+            <name>Decorative Statue E</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueC>
+        <DLCTicketingDesk>
+            <name>Ticketing Desk B</name>
+            <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
+        </DLCTicketingDesk>
+        <DLCTicketingKiosk>
+            <name>Ticketing Kiosk B</name>
+            <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
+        </DLCTicketingKiosk>
+        <DLCTreeA>
+            <name>Tree4</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeA>
+        <DLCTreeB>
+            <name>Tree5</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeB>
+        <DLCTreeC>
+            <name>Tree6</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeC>
+        <DLCTreeD>
+            <name>Tree7</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeD>
+        <DLCTreeE>
+            <name>Tree8</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeE>
     </Objects>
     <Foods>
-        <Pizza>Pizza</Pizza>
-        <Sushi>Sushi</Sushi>
-        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
-        <Crisps>Crisps</Crisps>
-        <Donut>Donuts</Donut>
-        <Coffee>Coffee</Coffee>
-        <Lemonade>Fizzy Lemonade</Lemonade>
-        <Coke>Cola</Coke>
+        <Pizza>Пицца</Pizza>
+        <Sushi>Суши</Sushi>
+        <AvacadoonToast>Тост с авокадо</AvacadoonToast>
+        <Crisps>Чипсы</Crisps>
+        <Donut>Донаты</Donut>
+        <Coffee>Кофе</Coffee>
+        <Lemonade>Лимонад</Lemonade>
+        <Coke>Кола</Coke>
     </Foods>
     <Products>
-        <Book>Books</Book>
-        <Candy>Candy</Candy>
-        <Clothing>Clothing</Clothing>
-        <Jewelry>Jewelry</Jewelry>
-        <Makeup>Makeup</Makeup>
-        <Medicine>Medicine</Medicine>
-        <Souvenir>Souvenirs</Souvenir>
-        <Shoes>Shoes</Shoes>
+        <Book>Книги</Book>
+        <Candy>Сладости</Candy>
+        <Clothing>Одежда</Clothing>
+        <Jewelry>Ювелирные изделия</Jewelry>
+        <Makeup>Косметика</Makeup>
+        <Medicine>Лекарства</Medicine>
+        <Souvenir>Сувениры</Souvenir>
+        <Shoes>Обувь</Shoes>
     </Products>
 </Entities>

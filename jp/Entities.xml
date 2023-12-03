@@ -3,27 +3,27 @@
     <Agents>
         <KioskWorker>
             <name>小売ワーカー</name>
-            <description>キオスクスタンドや店舗での顧客に製品を提供しています。</description>
+            <description>キオスクスタンドや店舗での顧客に製品を提供します。</description>
         </KioskWorker>
         <Chef>
             <name>シェフ</name>
-            <description>キッチンで調理をして食品を販売、サービスに配信します。</description>
+            <description>キッチンで調理をして食品を販売、提供します。</description>
         </Chef>
         <CFO>
             <name>CFO</name>
-            <description>最高財務責任者（CFO） - あなたは、このような銀行融資＆財務報告の改善など金融関連のアップグレードや能力を研究することができます。</description>
+            <description>最高財務責任者 - このような銀行融資＆財務報告の改善など、金融関連のアップグレードなどを利用することができるようになります。</description>
         </CFO>
         <COO>
             <name>COO</name>
-            <description>最高執行責任者 - あなたがアップグレードやツール関連事業や物流を研究することができます。</description>
+            <description>最高執行責任者 - アップグレードやツール関連事業や物流を開発することができるようになります。</description>
         </COO>
         <CTO>
             <name>CTO</name>
-            <description>チーフ・テクノロジー・オフィサー - あなたはテクノロジー関連のアップグレードを研究することができますし、そのようなパブリックアドレスシステム＆他の向上した技術のオブジェクトなどのオブジェクトへのアクセスを提供します。</description>
+            <description>最高技術責任者 - テクノロジー関連のアップグレードを利用することができるようになりますし、パブリックアドレスシステム（館内放送）＆他の向上した技術を使えるようにしてくれます。</description>
         </CTO>
         <FinanceVP>
             <name>金融VP</name>
-            <description>財務担当副社長 - あなたは「研究」税関連の改善することを可能にし、油を塗った車輪を保つのを助けることができます。</description>
+            <description>財務担当副社長 - 税関連の改善することを可能にします。</description>
         </FinanceVP>
         <FlightAttendant>
             <name>客室乗務員</name>
@@ -35,11 +35,11 @@
         </FoodWorker>
         <Foreman>
             <name>フォアマン</name>
-            <description>建設フォアマンは - あなたは、このような交差滑走路など多くの建設関連のアップグレード＆能力を、研究することができます。</description>
+            <description>建設フォアマン - 建設関連のアップグレードや能力について研究ができるようになります。例えば、交差する滑走路やそれ以外にも沢山の物が利用できるようになります。</description>
         </Foreman>
         <Janitor>
-            <name>使丁</name>
-            <description>シャットダウン避けるために、空港、スケジュールのごみのピックアップ周りのゴミをクリーンアップします。</description>
+            <name>清掃員</name>
+            <description>空港が運営できなくならないように、空港内のゴミなどを清掃し、ごみのピックアップをスケジューリングします。</description>
         </Janitor>
         <Laborer>
             <name>労働者</name>
@@ -54,24 +54,24 @@
             <description />
         </Pilot>
         <RampAgent>
-            <name>RampAgent</name>
-            <description>航空機はSTUCK？救助までのランプエージェント！彼らは、小さなワンタイム料金で地面に「非スティック」すべての航空機を助けます。自分の仕事が完了すると、彼らは残しておきます。また、「ゴールデン・トウバー賞」として知られています。</description>
+            <name>ランプエージェント</name>
+            <description>航空機がスタックしてしまった？ ランプエージェントが助けてくれます！ 彼らは、一回ごとの報酬でスタックしているどんな航空機も助けてくれます。彼らは仕事が終われば、持ち場を離れて去っていきます。「ゴールデン・トウバー賞受賞」として知られています。</description>
         </RampAgent>
         <Security>
             <name>セキュリティ</name>
-            <description>彼らは空港を通してそれを作るとしてバッグや乗客をクリアします。</description>
+            <description>空港内のバッグや乗客をチェックし通過して良いかどうかを判断します。</description>
         </Security>
         <Staff>
             <name>スタッフ</name>
-            <description>オペレーティング机を含め、顧客サービスの位置を処理します。</description>
+            <description>オペレーティングデスクを利用し、顧客サービスを担当します。</description>
         </Staff>
         <VendorWorker>
             <name>VendorWorker</name>
             <description />
         </VendorWorker>
         <Workman>
-            <name>労働者</name>
-            <description>すべての建設関連のタスクを処理し、記憶装置に不要なボックスを移動し、修理は、空港の周りにオブジェクト。あなたは荷物のシステムを持っていない場合、彼らはあまりにも荷物をお届けすることができます！</description>
+            <name>ワークマン</name>
+            <description>すべての建設関連のタスクを処理し、倉庫に不要なボックスを移動し、空港周辺の修理までこなします。あなたが手荷物の運搬ルートを使って居ない場合、彼らは手荷物を運搬してくれます！</description>
         </Workman>
         <BaggageCar>
             <name>荷物専用車</name>
@@ -117,6 +117,18 @@
             <name>サプライトラック</name>
             <description />
         </SupplyTruck>
+        <AirlineRep>
+            <name>営業担当</name>
+            <description>営業担当をアサインして、航空会社の信頼を得ましょう！ 彼らは航空会社とのコミュニケーションを円滑にしてくれることでしょう。 しかしながら、彼らをアサインするためには自動的に会議が設定されることになる会議室が必要です。</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Light Rail Train</name>
+            <description />
+        </LightRailTrain>
+        <ApronBus>
+            <name>Apron Bus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -124,6 +136,7 @@
             <ConveyorTransition>コンベヤの移行</ConveyorTransition>
             <Stairs>階段</Stairs>
             <Escalator>エスカレーター</Escalator>
+            <AircraftGateRemote>Aircraft Gate (Remote)</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>汚れた床</name>
@@ -137,15 +150,15 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>滑走路のILS</name>
-            <description>計器着陸システムは、より大きな旅客機は精密機器のアプローチを実施することができます。最大横風許容範囲は12から20に増加Ktをされています。これは、より少ない天候の遅れ気象関連の事件のリスクが低いことを意味します。また、あなたが「ビッグボーイ」航空会社を誘致お手伝いします。</description>
+            <description>計器着陸システムでより大きな旅客機は精密なアプローチをすることができます。最大横風許容範囲は12ノットから20ノットに増加されます。これは、天候の遅れ気象関連の遅延や事故のリスクが低くなることを意味します。また、大規模な航空会社の誘致の手助けになるはずです。</description>
         </RunwayILS>
         <RunwayLights>
             <name>滑走路灯</name>
-            <description>滑走路灯は、あなたの空港で夜の操作を可能とします。</description>
+            <description>滑走路灯は、あなたの空港で夜の運用を可能にします。</description>
         </RunwayLights>
         <RunwayPAPI>
-            <name>滑走路PAPI</name>
-            <description>精密進入路インジケータが増加し、安全性が得られ、彼らのアプローチ角度のパイロットに視覚的なインジケータを提供します。最大横風許容値も12から15に増加Ktをされています。</description>
+            <name>PAPI</name>
+            <description>精密進入路インジケータが増加し、安全性が得られ、飛行機のアプローチ時に視覚的な角度のインジケータを提供します。最大横風許容値も12ノットから15にノット増加されます。</description>
         </RunwayPAPI>
         <Windsock>
             <name>吹き流し</name>
@@ -153,44 +166,52 @@
         </Windsock>
         <FuelPort>
             <name>燃料ポート</name>
-            <description>門の上に配置され、より高速な給油サービスを有効にするには、地下のパイプラインに接続することができ、出力ポート。</description>
+            <description>ゲートに配置され、より高速な給油サービスを提供します。地下のパイプラインに接続することができるようになります。</description>
         </FuelPort>
         <BoosterPanel>
             <name>ブースターパネル</name>
             <description>彼らは毎分より多くの袋をソートすることができるようにあなたの手荷物ハブに追加のソート能力を提供します。手荷物ハブあたりの制限2。</description>
         </BoosterPanel>
         <AircraftGateSmall>
-            <name>航空機門（S）</name>
+            <name>ボーディングゲート（S）</name>
             <description>航空機は乗客をロードおよびアンロードすることができます。</description>
         </AircraftGateSmall>
         <AircraftGate>
-            <name>航空機門（L）</name>
+            <name>ボーディングゲート（L）</name>
             <description>航空機は乗客をロードおよびアンロードすることができます。</description>
         </AircraftGate>
         <AircraftGateLarge>
-            <name>航空機門（XL）</name>
+            <name>ボーディングゲート（XL）</name>
             <description>航空機は乗客をロードおよびアンロードすることができます。</description>
         </AircraftGateLarge>
         <ApparelStand>
             <name>アパレルスタンド</name>
-            <description>プロセスであなたのトランザクションあたり$ 5稼ぎながら楽しま乗客を保つことができます。予定の小売労働者が必要です。</description>
+            <description>トランザクションごとに$5ずつ稼ぎながら、乗客を楽しませることができます。スケジューリングされたの小売労働者が必要です。</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATCタワー</name>
+            <name>管制塔</name>
             <description>一日あたり10回の以上のフライトのスケジューリングを可能にします。</description>
         </ATCTower>
         <ATM>
             <name>ATM</name>
-            <description>あなたのトランザクションあたり$ 5稼ぎながら乗客を幸せにします。</description>
+            <description>トランザクションあたり$5稼ぎながら乗客を幸せにします。</description>
         </ATM>
         <BagScanner>
             <name>バッグスキャナ</name>
-            <description>このX線装置は、密輸やその他のセキュリティ上の脅威のために乗客のキャリーアドオンをスキャンするためにあなたのセキュリティスタッフによって使用されます。</description>
+            <description>このX線装置は、密輸やその他のセキュリティ上の脅威を逃れるために、乗客の持ち込み手荷物をスキャンします。セキュリティスタッフによって使用されます。</description>
         </BagScanner>
         <BaggageCarousel>
-            <name>手荷物カルーセル</name>
-            <description>自動化された荷物の解決のために地下コンベヤシステムに接続します。</description>
+            <name>手荷物用コンベア（地下接続用）</name>
+            <description>自動化された荷物運搬の解決のために地下コンベヤシステムに接続します。</description>
         </BaggageCarousel>
+        <BaggageCarouselSameLevel>
+            <name>手荷物用コンベア（同じ階用）</name>
+            <description>自動化された荷物運搬の解決のために同階層のコンベヤシステムに接続します。</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>手荷物用コンベア（上層階接続用）</name>
+            <description>自動化された荷物運搬の解決のために1つ上の階のコンベヤシステムに接続します。</description>
+        </BaggageCarouselfromAbove>
         <Bar-Large>
             <name>バー - 大</name>
             <description>喉が渇いた乗客はここでお飲み物を買います。予定の小売労働者が必要です。</description>
@@ -201,35 +222,35 @@
         </Bar-Small>
         <Bench>
             <name>ベンチ</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </Bench>
         <BenchB>
             <name>ベンチB</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <description>そ休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>ベンチB  -  2シート</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <name>ベンチB - 2シート</name>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>ベンチB  -  3シート</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <name>ベンチB - 3シート</name>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchB-3Seat>
         <BenchC>
             <name>ベンチC</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>ベンチC  -  2シート</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <name>ベンチC - 2シート</name>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>ベンチC  -  3シート</name>
-            <description>それらを快適にアイドルの場を与えることによって、乗客を幸せにします。</description>
+            <name>ベンチC - 3シート</name>
+            <description>休憩できる場所を提供することによって、乗客を幸せにします。</description>
         </BenchC-3Seat>
         <BodyScanner>
             <name>ボディースキャナー</name>
-            <description>標準の金属探知機に、より高度な代替。</description>
+            <description>標準の金属探知機よりハイレベルなスキャナーです。。</description>
         </BodyScanner>
         <CafeChair>
             <name>カフェチェア</name>
@@ -240,16 +261,16 @@
             <description>乗客に座る＆食事をする場所を提供します。</description>
         </CafeChairB>
         <CafeTable>
-            <name>カフェのテーブル</name>
+            <name>カフェテーブル</name>
             <description>乗客に座る＆食事をする場所を提供します。</description>
         </CafeTable>
         <CafeTableB>
-            <name>カフェのテーブルB</name>
+            <name>カフェテーブルB</name>
             <description>乗客に座る＆食事をする場所を提供します。</description>
         </CafeTableB>
         <CashRegister>
             <name>レジ</name>
-            <description>お客様はカフェ、店で拾った品物のために支払うことができます。</description>
+            <description>お客様はカフェや店で買う品物に対して、ここで支払うことができます。</description>
         </CashRegister>
         <FoodWarmer>
             <name>熱い食べ物表示</name>
@@ -676,10 +697,6 @@
             <name>動く歩道</name>
             <description>乗客に長い距離を移動するためのより高速な方法を提供します。</description>
         </MovingWalkway>
-        <ArcadeDriving>
-            <name>アーケードドライバーゲーム</name>
-            <description>彼らは高速コーナーを取ると、特権のためにあなたを支払うよう、あなたはいくつかの楽しみを持ってみましょう！</description>
-        </ArcadeDriving>
         <ArcadeRetro>
             <name>アーケードレトロゲーム</name>
             <description>過去からの爆風！パックスは、彼らが点滅を開始するまで、幽霊のようなモンスターを避けて保管する必要があります！すべての関係のために良い時間。</description>
@@ -801,6 +818,154 @@
             <name>Arcade Driver Game</name>
             <description>Let your have some fun as they take corners fast and pay you for the privilege!</description>
         </ArcadeDriver>
+        <OneWayPath>
+            <name>One Way Path</name>
+            <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Reception Desk</name>
+            <description>When operated by Security, Airline visitors can use this to gain access to secure areas. Visitors include those arriving for meetings in the conference rooms, and airline executives working in offices.</description>
+        </ReceptionDesk>
+        <ConferenceTable1>
+            <name>Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Large Glass Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Large Light Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Large Dark Wood Conference Table</name>
+            <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Stairway</name>
+            <description>A stairway that allows your passengers to travel between two floors.</description>
+        </Stairs>
+        <Escalator>
+            <name>Escalator</name>
+            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Road Ramp</name>
+            <description>Allows roads to transition a single level.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Conveyor Transition</name>
+            <description>Conveyor network object which allows a conveyor segment to transition between two floors.  Allows for strategic uses of space when designing baggage conveyor networks.</description>
+        </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Aircraft Gate (S, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Remote Bus Pickup</name>
+            <description>Allows for buses to transfer passengers to and from a remote gate.</description>
+        </RemoteBusPickup>
+        <Crosswalk>
+            <name>Cross Walk</name>
+            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+        </Crosswalk>
+        <AircraftGateRemote>
+            <name>Aircraft Gate (L, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateRemote>
+        <AircraftGateLargeRemote>
+            <name>Aircraft Gate (XL, Remote)</name>
+            <description>Allows aircraft to load and unload passengers.</description>
+        </AircraftGateLargeRemote>
+        <DLCBench>
+            <name>Bench D</name>
+            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+        </DLCBench>
+        <DLCBushA>
+            <name>Decorative Bush 9</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushA>
+        <DLCBushB>
+            <name>Decorative Bush 10</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushB>
+        <DLCBushC>
+            <name>Decorative Bush 11</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushC>
+        <DLCBushD>
+            <name>Decorative Bush 12</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCBushD>
+        <DLCCactus>
+            <name>Cactus</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCCactus>
+        <DLCDecorA>
+            <name>Planter A</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorA>
+        <DLCDecorB>
+            <name>Planter B</name>
+            <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
+        </DLCDecorB>
+        <DLCPalm>
+            <name>Decorative Palm</name>
+            <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
+        </DLCPalm>
+        <DLCPine>
+            <name>Decorative Pine</name>
+            <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
+        </DLCPine>
+        <DLCStatueA>
+            <name>Decorative Statue C</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueA>
+        <DLCStatueB>
+            <name>Decorative Statue D</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueB>
+        <DLCStatueC>
+            <name>Decorative Statue E</name>
+            <description>A beautiful, modern decorative statue. </description>
+        </DLCStatueC>
+        <DLCTicketingDesk>
+            <name>Ticketing Desk B</name>
+            <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
+        </DLCTicketingDesk>
+        <DLCTicketingKiosk>
+            <name>Ticketing Kiosk B</name>
+            <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
+        </DLCTicketingKiosk>
+        <DLCTreeA>
+            <name>Tree4</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeA>
+        <DLCTreeB>
+            <name>Tree5</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeB>
+        <DLCTreeC>
+            <name>Tree6</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeC>
+        <DLCTreeD>
+            <name>Tree7</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeD>
+        <DLCTreeE>
+            <name>Tree8</name>
+            <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
+        </DLCTreeE>
     </Objects>
     <Foods>
         <Pizza>ピザ</Pizza>

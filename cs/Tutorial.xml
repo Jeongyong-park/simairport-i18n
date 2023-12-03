@@ -7,6 +7,7 @@
         <FuelPA>Rozhlas a palivo</FuelPA>
         <Scheduling>Směny zaměstnanců</Scheduling>
         <FoodStores>Jídlo a obchody</FoodStores>
+        <NeedsNegotiate>Potřeby leteckých společností a vyjednávání</NeedsNegotiate>
     </Titles>
     <EndTutorial>Zavřít</EndTutorial>
     <NextButton>Další</NextButton>
@@ -323,6 +324,8 @@ Budete potřebovat zónu pro výstup a nástup, protože zaměstnanci dorazí a 
         <EndTitle>Tutoriál dokončen</EndTitle>
         <End>Nyní můžete naplánovat, kdy budou objekty fungovat a získat tak lepší kontrolu nad vaším letištěm.</End>
         <HowItWorksTitle>Jak to funguje</HowItWorksTitle>
+        <StaffTypes>Remember that there are different types of workers. To make managing their schedules easier, each type has their own timeline.</StaffTypes>
+        <StaffTypesObjective>Use the dropdown to change the type of worker.</StaffTypesObjective>
     </Scheduling>
     <FoodStores>
         <IntroductionTitle>Restaurace a obchody</IntroductionTitle>
@@ -385,4 +388,108 @@ Můžete si také přizpůsobit názvy obchodů (a názvy restaurací) jako vžd
 Tohle všechno jste udělali, abyste vydělali více peněz ... Myslím tím, že jste všechno udělali proto, aby cestující byli šťastnější.</StoresFinale>
     </FoodStores>
     <Default>Zde se v průběhu tutoriálu zobrazí užitečné obrázky.</Default>
+    <NeedsNegotiate>
+        <IntroductionTitle>Potřeby leteckých společností a vyjednávání</IntroductionTitle>
+        <Introduction>Vítejte u tutoriálu o potřebách leteckých společností a vyjednávání s nimi!
+        
+Nyní máte úspěšné letiště s mnoha šťastnými cestujícími, které vám vydělává spoustou peněz. Ale jak udělat šťastné i letecké společnosti a získat ještě více peněz?
+
+Poznámka: Tento tutoriál je poměrně pokročilý a vhodný pouze pro střední a velká letiště.</Introduction>
+        <AirlinesTitle>Proč je spokojenost leteckých společností důležitá?</AirlinesTitle>
+        <Airlines>Letecké společnosti vám nabízejí své lety, které lze přiřadit k vašim branám v určitých časových intervalech.
+        
+Čím více je letecká společnost s vaším letištěm spokojena, tím více letů vám nabídne, ze kterých můžete získat další příjmy. Pokud budete plnit vaše závazky, budete moci leteckým společnostem účtovat vyšší ceny. A kdo nemá rád peníze, že?</Airlines>
+        <DifferentNeedsTitle>Různé potřeby letecké společnosti</DifferentNeedsTitle>
+        <AirlineRepsTitle>Ředitelé a obchodní zástupci</AirlineRepsTitle>
+        <AirlineReps>Když ředitelé nepracujeme na výzkumu, mohou zlepšovat spokojenost leteckých společností.</AirlineReps>
+        <AirlineRepsObjective>Přejděte do podrobností o letecké společnosti Learnyville Air, klepněte na tlačítko přiřadit zaměstnance a poté klepněte na tlačítko přiřadit u zaměstnance kterého chcete přiřadit..</AirlineRepsObjective>
+        <AirlineExecutivesTitle>Zástupci letecké společnosti</AirlineExecutivesTitle>
+        <AirlineExecutives>Zástupci letecké společnosti jsou návštěvníci, kteří přišli, aby se setkali s vašim vedením. Nemají tak přístup do oblastí, které jsou blokovány dveřmi pouze pro zaměstnance.
+        
+Jejich spokojenost bude mít vliv na celkové skóre spokojenosti cestujících, stejně jako normální cestující. Zajistěte, aby byly prostory, ve kterých pohybují, byly dostatečně vybaveny. A aby měli během přestávek přístup k jídlu, nápojům, toaletám a zábavě.</AirlineExecutives>
+        <Reception>Všichni návštěvníci musí nejprve navštívit recepci. Dál budou vpuštěni pouze zástupci letecké společnosti - použijte recepční zóny k vytvoření hranic,  za které již normální cestující nesmí.
+        
+Jak vidíte, u vchodu do business centra byla zvýrazněna oblast. Toto je dobré místo pro recepci!</Reception>
+        <ReceptionObjective>Do business centra přidejte funkční recepční zónu pro návštěvníky. Doporučujeme použít  zvýrazněná oblast.</ReceptionObjective>
+        <OfficesPeek>Nezapomeňte, že za normálních okolností je třeba najmout dalšího člena ochranky, aby na recepci pracoval. Tento tutoriál vám však dá jednoho člena zdarma.
+        
+Jak vidíte v business centru jsou nějaké prázdné kanceláře. Dostaneme se k nim později! Všimněte si, že každý obchodní zástupce pracuje ve své vlastní kanceláři stejným způsobem jako ředitelé.</OfficesPeek>
+        <MoreReps>S více než jedním obchodním zástupcem posílíte rychlost e-mailové komunikace s leteckou společností.
+        
+Zde však existuje i limit a pokud budete chtít zlepšit svou komunikaci ještě více, budete muset pořádat schůzky. Ty se konají kolem poledne v konferenční místnosti, a automaticky se opakují.</MoreReps>
+        <MoreRepsObjective>Postav funkční konferenční místnost. V ideálním případě by se měla nacházet v business centru.</MoreRepsObjective>
+        <CommercialPricingTitle>Komerční ceny</CommercialPricingTitle>
+        <CommercialPricing>Poplatky za využití ranveje a terminálu můžete nastavit na obrazovce Operace. To bude mít dopad na všechny letecké společnosti, přičemž každá letecká společnost má svou vlastní citlivost.
+        
+Alternativou k tomu je vyjednávání. vyjednávání vám umožňují prosadit vyšší ceny. Na oplátku však budete muset letecké společnosti něco přislíbit.</CommercialPricing>
+        <RequirementsTitle>Požadavky pro vyjednávání</RequirementsTitle>
+        <Requirements>Vyjednané smlouvy jsou ... velký problém! Letecké společnosti s vámi budou muset mít dobré zkušenosti z minulosti, než s nimi budete moci jednat.
+        
+Chcete-li zjistit, co vám chybí, můžete najet na tlačítko Vyjednávat. Budete muset alespoň přijmout některé lety.</Requirements>
+        <RequirementsObjective>Přejděte na podrobnosti o Learnyville Air, vyřešte jejich požadavky a pak začněte s jednáním.</RequirementsObjective>
+        <NegotiationsTitle>Vyjednávání</NegotiationsTitle>
+        <Negotiations>Vzhledem k tomu, co požaduje letecká společnost, můžete účtovat leteckým společnostem vyšší ceny, než je obvyklé, a to aniž by s vámi byla letecká společnost nespokojená. Nejdříve však musíte udělat dobrý obchod!
+        
+Na této obrazovce můžete přidat další letadla a vybrat časový úsek ve kterém je chcete odbavit. To je užitečné, pokud potřebujete lety určité velikosti nebo lety pouze v určitém čase.</Negotiations>
+        <NegotiationsObjective>Začněte kliknutím na tlačítko Kontaktovat!</NegotiationsObjective>
+        <Wants>To je ono! Nyní jsme v prvním kole vyjednávání. Nahoře můžete vidět aktuální atmosféru, čím výhodnější nabídka pro leteckou společnost tím lepší atmosféra a tím vyšší šance na přijmutí vaší nabídky.
+        
+Níže můžete vidět, co letecká společnost vyžaduje. Vedle každého požadavku si můžete pomocí posuvníku nebo zadáním hodnoty zvolit kolik nabízíte vy. Až jeden požadavek můžete odmítnout.</Wants>
+        <PricingTitle>Různé cenové kategorie</PricingTitle>
+        <Pricing>Při úpravě cen zde existují čtyři možnosti.
+        
+Trest za nedodržení smlouvy jednoduchý: porušíteli  smlouvu, zaplatíte tuto částku!
+
+V pravém bočním panelu se nachází záložka Podmínky, která jasně určuje, kdy jste porušili smlouvu.</Pricing>
+        <Pricing2>Poplatky za využití terminálu a ranveje, nahradí poplatky stanovené ve smlouvě.
+        
+Konečně je zde i denní poplatek. Ten lze použít jako dodatečný příjem pro pokrytí výdajů za obchodní zástupce. Například jeden obchodní zástupce vás stojí asi 3000 dolarů na den! Pro velké letecké společnosti může být lepší zaplatit jeden velký denní poplatek, než platit za každého jejich cestujícího.</Pricing2>
+        <AtmosphereTitle>Atmosféra</AtmosphereTitle>
+        <Atmosphere>Pojďme nyní trochu experimentovat. Nejprve zkuste zhoršit atmosféru! To se obecně stane, když odstraníte zařízení a zvýšíte ceny.</Atmosphere>
+        <AtmosphereObjective>Vytvořte nabídku s velmi špatnou atnosférou.</AtmosphereObjective>
+        <HotDeal>Teď se pojďte zahřát! Tentokrát zlepšit zlepši nabídku přidáním zařízení a snížením cen.
+        
+Všimněte si, že některá zařízení, kterých nabízíte víc než letecká společnost požaduje, už nemají pozitivní vliv na skóre. Některé letecké společnosti nepotřebují toto zařízení a proč by chtěly spoustu toho, co nepotřebují?</HotDeal>
+        <HotDealObjective>Udělejte nabídku se skvělou atmosférou!</HotDealObjective>
+        <BestDeal>V pravé části obrazovky jsou tři karty a kontextové vyskakovací okno. Máte li problém, zde se o něm můžete dozvědět více podrobností. Když nemáte žádný problém, můžete zde vidět souhrn aktuální nabídky, případně zobrazit podmínky porušení smlouvy a získat další pomoc.
+        
+Musíte pracovat na tom, aby jste pokud možno pokaždé podali tu nejlepší nabídku, jak to uděláte je jen na vás?</BestDeal>
+        <BestAtmosphere>Pokud je atmosférad skvělá nebo vynikající, pak můžete dohodu přijmout. Nicméně, rychlá dohoda, určitě nebude ta nejlepší nabídka!
+        
+Letecké společnosti budou občas skrývat jejich skutečný názor na nabídku a snažit se neodhalit, jak moc jsou skutečně ochotni obětovat. Chcete-li zde opravdu dosáhnout nejlepší atmosféry budete muset obětovat důvěru a experimentovat.</BestAtmosphere>
+        <SendOfferTitle>Závěr 1 kola</SendOfferTitle>
+        <SendOffer>Po nalezení vhodného kompromisu klikněte na Odeslat nabídku. Jakmile ji letecká společnost posoudí, dá vám vědět.</SendOffer>
+        <SendOfferObjective>Pošlete letecké společnosti vaši nabídku!</SendOfferObjective>
+        <OutcomesTitle>Tři výsledky</OutcomesTitle>
+        <Outcomes>Nechte čas plynout a poté dostanete jednu z těchto odpovědí:
+        
+1) Letecká společnost přijala vaši nabídku.
+        
+2) Letecká společnost odmítla vaši nabídku.
+
+3) Letecká společnost s vámi chce dále jednat.</Outcomes>
+        <Overview>Pokud vaši nabídku zcela odmítnou, znamená to, že jste stanovili příliš extrémní podmínky, a s vaší nabídkou se nedalo nijak pracovat!
+            
+Bez ohledu na to, jak to šlo, předpokládejme, že chtějí znovu vyjednávat. Zobrazí se obrazovka s přehledem, jak je zobrazeno na obrázku. Zde bude porovnání jejich nové nabídky, s vaší starou nabídkou. Poté byste pokračovali do druhého kola a pokračovali v procesu vyjednávání tak dlouho, dokud nedojde k jasnému rozhodnutí.</Overview>
+        <EndingTitle>Po vyjednávání</EndingTitle>
+        <Ending>Po dokončení bude letecká společnost požadovat, abyste jí přiřadil vyjednané zařízení. Pokud žádné nemáte, budete muset postavit.
+        
+V podrobnostech o letecké společnosti ve spodní části můžete vidět aktuální smlouvu a to, co chybí. V sekci potřeby letecké společnosti uvidíte zařízení, která ještě chybí. Čím déle bude trvat než letecké společnosti přidělíte vyjednané zařízení, tím více bude nespokojená!</Ending>
+        <Assigning>Chcete-li přiřadit zařízení, klepněte na něj a vyberte možnost Přiřadit exkluzivitu letecké společnosti. Zde budou uvedeny pouze letecké společnosti, které to zařízení postrádají.
+        
+Buďte opatrní s branami! Pouze letadla dané letecké společnosti u nich mohou parkovat! Zkontrolujte plánovač letů, zda některá letadla již nemůže tuto bránu používat - budou svítit červeně.</Assigning>
+        <AssigningObjective>Přiřaďte všechna chybějící zařízení. Chcete-li zjistit, co chybí, použijte podrobnosti o letecké společnosti.</AssigningObjective>
+        <RoomScores>Měli byste vidět novou potřebu nazvanou kvalita zařízení. Každá zóna má hodnocení a když zónu přidělíte letecké společnosti, vezme v úvahu, jak je zóna dobrá .
+        
+Můžete kliknout na zónu, o které chcete vyjednávat, abyste viděli celkové skóre. To zahrnuje životní prostředí, velikost zóny, snadný přístup a další!</RoomScores>
+        <OfficesTitle>Kanceláře</OfficesTitle>
+        <Offices>Možná jste letecké společnosti přiřadili kanceláře. Ty budou využívány zástupci letecké společnosti, kteří pracují během dopoledne a odpoledne. Ti mají také potřeby, stejně jako uživatelé konferenčních místností, své potřeby se budou snažit naplnit během přestávek.
+        
+Jak se budou cítit bude mít dopad na jejich celkovou spokojenost, obzvláště pokud budou nešťastní! Proto je důležité mít vaše business centrum dostatečně vybaveno.</Offices>
+        <FinishedTitle>To je ono!</FinishedTitle>
+        <Finished>Dozvěděli jste se více o potřebách leteckých společností, zájmu, obchodních zástupcích, konferenčních místnostech a vyjednáváních!</Finished>
+        <DifferentNeeds>Trust is an overall representation of your relationship with the airline. It is slow to heal if you breach a negotiated deal, have poor communication, and can be affected by other poor needs too. This has a great impact on their overall satisfaction.
+            
+The other needs are quite simple and are explained in the Airline Details view. They are: Commercial Fees, Communication, Fuel Satisfaction, Passenger Satisfaction, and Service Reliability.</DifferentNeeds>
+    </NeedsNegotiate>
 </Tutorial>

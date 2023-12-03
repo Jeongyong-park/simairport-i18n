@@ -117,6 +117,18 @@
             <name>Šéfkuchař</name>
             <description>Vaří jídlo v kuchyni a dodávají ji do stánků a obchodů, které prodávají jídlo.</description>
         </Chef>
+        <AirlineRep>
+            <name>Obchodní zástupce</name>
+            <description>Přiřaďte obchodní zástupce leteckým společnostem pro zlepšení komunikace a důvěry! Po celý den vylepšují komunikaci s leteckou společností. Chcete-li však z toho vytěžit co nejvíce, budete muset vybudovat konferenční místnosti, kde lze pořádat schůzky.</description>
+        </AirlineRep>
+        <LightRailTrain>
+            <name>Vlak</name>
+            <description />
+        </LightRailTrain>
+        <ApronBus>
+            <name>Letištní autobus</name>
+            <description />
+        </ApronBus>
     </Agents>
     <Objects>
         <generic>
@@ -124,6 +136,7 @@
             <ConveyorTransition>Přechod dopravníku</ConveyorTransition>
             <Stairs>Schody</Stairs>
             <Escalator>Eskalátor</Escalator>
+            <AircraftGateRemote>Vzdálená brána pro nástup do letadla</AircraftGateRemote>
         </generic>
         <DirtyFloor>
             <name>Špinavá zem</name>
@@ -643,7 +656,7 @@
             <description>Přidává schody k vaší malé bráně a zpřístupní ji výhradně z druhého patra.</description>
         </SmallGateStairs>
         <MovingWalkway>
-            <name>Pohybující se chodník</name>
+            <name>Pohyblivý pás</name>
             <description>Dává cestujícím možnost cestovat rychle na dlouhé vzdálenosti.</description>
         </MovingWalkway>
         <FlightInfoDisplayXL>
@@ -702,17 +715,13 @@
             <name>Ohřívač jídla</name>
             <description>Musí být umístěny ve vaší kuchyni, aby zde bylo možné skladovat teplé jídlo, zatímco čeká na dodání do restaurace/stánku.</description>
         </HotPlate>
-        <ArcadeDriving>
-            <name>Arkádová závodní hra</name>
-            <description>Nechte se pobavit, když budou cestující řezat zatáčky v této závodní hře, a dokonce vám zato i zaplatí!</description>
-        </ArcadeDriving>
         <RoadRampUp>
             <name>Silniční rampa nahoru</name>
-            <description>Umožňuje vám postavit cestu pod i nad zemí.</description>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
         </RoadRampUp>
         <RoadRampDown>
             <name>Silniční rampa dolů</name>
-            <description>Umožňuje vám postavit cestu pod i nad zemí.</description>
+            <description>Umožňuje vám postavit cestu i v podzemí.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Podzemní palivová nádrž</name>
@@ -799,6 +808,162 @@
             <name>Asfaltová ranvej</name>
             <description>Asfaltové ranveje nejsou tak dobré jako betonové, ale stále nejsou špatné.</description>
         </AsphaltRunway>
+        <OneWayPath>
+            <name>Jednosměrné dveře</name>
+            <description>Kontrolujte tok cestujících po celém letišti. Při používání těchto dveří pečlivě naplánujte umístění a nezapomeňte, že cestující musí mít vždy cestu k odletu/východu z letiště - v případě zmeškaného letu nebo při nouzovém stavu! </description>
+        </OneWayPath>
+        <ReceptionDesk>
+            <name>Recepce</name>
+            <description>Pokud je recepce obsluhována ochrankou, mohou zástupci letecké společnosti na recepci získat přístupu do zabezpečených oblastí. Návštěvníci zahrnují ty, kteří přijíždějí na schůzky v konferenčních místnostech a zástupce leteckých společností pracujících v kancelářích.</description>
+        </ReceptionDesk>
+        <BaggageCarouselSameLevel>
+            <name>Zavazadlový pás (stejné podlaží)</name>
+            <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je na stejném podlaží jako zavazadlový pás.</description>
+        </BaggageCarouselSameLevel>
+        <BaggageCarouselfromAbove>
+            <name>Zavazadlový pás (shora)</name>
+            <description>Místo, kde si vaši cestující mohou vyzvednout zavazadla z letadel. Přívod zavazadel je z vrchního podlaží.</description>
+        </BaggageCarouselfromAbove>
+        <ConferenceTable1>
+            <name>Skleněný konferenční stůl</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable1>
+        <ConferenceTable2>
+            <name>Konferenční stůl ze světlého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable2>
+        <ConferenceTable3>
+            <name>Konferenční stůl z tmavého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable3>
+        <ConferenceTable1Big>
+            <name>Velký skleněný konferenční stůl</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable1Big>
+        <ConferenceTable2Big>
+            <name>Velký konferenční stůl ze světlého dřeva</name>
+            <description>Zástupci leteckých společností zde budou diskutovat o důležitých záležitostech s vašimi obchodními zástupci.</description>
+        </ConferenceTable2Big>
+        <ConferenceTable3Big>
+            <name>Velký konferenční stůl z tmavého dřeva</name>
+            <description>v</description>
+        </ConferenceTable3Big>
+        <Stairs>
+            <name>Schody</name>
+            <description>Schodiště, které umožňuje cestujícím cestovat mezi dvěma patry.</description>
+        </Stairs>
+        <Escalator>
+            <name>Eskalátor</name>
+            <description>Elektronický eskalátor, který umožňuje cestovat mezi dvěma patry. Umožňuje pouze jízdu v jednom směru.</description>
+        </Escalator>
+        <RoadRamp>
+            <name>Silniční rampa</name>
+            <description>Umožňuje stavět cesty i v podzemí.</description>
+        </RoadRamp>
+        <ConveyorTransition>
+            <name>Rampa pásového dopravníku</name>
+            <description>Dopravní objekt, který umožňuje pásovému dopravníku sjet/vyjet o patro níž/výš. Umožňuje strategické využití prostoru při navrhování sítí dopravy zavazadel.</description>
+        </ConveyorTransition>
+        <AircraftGateSmallRemote>
+            <name>Malá vzdálená brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGateSmallRemote>
+        <RemoteBusPickup>
+            <name>Zastávka letištních autobusů</name>
+            <description>Umožňuje převážet cestující mezi terminálem a vzdálenými branami</description>
+        </RemoteBusPickup>
+        <Crosswalk>
+            <name>Přechod</name>
+            <description>Proč cestující přecházejí cetu? Aby se dostali k objektům na druhé straně!</description>
+        </Crosswalk>
+        <AircraftGateRemote>
+            <name>Velká vzdálená brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGateRemote>
+        <AircraftGateLargeRemote>
+            <name>Extra velká vzdálená brána</name>
+            <description>Umožňuje cestujícím nastupovat a vystupovat z letadla.</description>
+        </AircraftGateLargeRemote>
+        <DLCBench>
+            <name>Lavička D</name>
+            <description>Zbývá cestujícím ještě čas před odletem? Jistě si rádi odpočinou na této lavičce.</description>
+        </DLCBench>
+        <DLCBushA>
+            <name>Dekorační keř I</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCBushA>
+        <DLCBushB>
+            <name>Dekorační keř J</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCBushB>
+        <DLCBushC>
+            <name>Dekorační keř K</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCBushC>
+        <DLCBushD>
+            <name>Dekorační keř L</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCBushD>
+        <DLCCactus>
+            <name>Kaktus</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCCactus>
+        <DLCDecorA>
+            <name>Květináč A</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCDecorA>
+        <DLCDecorB>
+            <name>Květináč B</name>
+            <description>Krásná dekorační rostlina, která může ve větším množstí zlepšit náladu a hodnocení cestujících.</description>
+        </DLCDecorB>
+        <DLCPalm>
+            <name>Dekorační palma</name>
+            <description>Velmi elegantní dekorace, která dodá vašemu letišti něco navíc. Dekorace, kterou ocení nejen cestující první třídy.</description>
+        </DLCPalm>
+        <DLCPine>
+            <name>Dekorační borovice</name>
+            <description>Velmi pěkný dodatek vašeho letiště. Skoro vypadá jako vánoční stromek, ale tento je v sezóně po celý rok. Cestující často oceňují takové věci.</description>
+        </DLCPine>
+        <DLCStatueA>
+            <name>Dekorační socha C</name>
+            <description>Krásná, moderní dekorativní socha. </description>
+        </DLCStatueA>
+        <DLCStatueB>
+            <name>Dekorační socha D</name>
+            <description>Krásná, moderní dekorativní socha. </description>
+        </DLCStatueB>
+        <DLCStatueC>
+            <name>Dekorační socha E</name>
+            <description>Krásná, moderní dekorativní socha. </description>
+        </DLCStatueC>
+        <DLCTicketingDesk>
+            <name>Přepážka pro odbavení B</name>
+            <description>Cestující sem přicházejí, aby získali letenku &amp; a zaměstnanci mohli zkontrolovat jejich zavazadla. Vaši zaměstnanci budou u těchto stolů pracovat, aby pomáhali cestujícím při odbavení.</description>
+        </DLCTicketingDesk>
+        <DLCTicketingKiosk>
+            <name>Samoobslužná přepážka pro odbavení B</name>
+            <description>Cestující, kteří nemají velké zavazadlo, mohou použít tuto automatickou přepážku pro odbavení k vytištění letenky bez nutnosti pomoci od zaměstnance.</description>
+        </DLCTicketingKiosk>
+        <DLCTreeA>
+            <name>Strom D</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </DLCTreeA>
+        <DLCTreeB>
+            <name>Strom E</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </DLCTreeB>
+        <DLCTreeC>
+            <name>Strom F</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </DLCTreeC>
+        <DLCTreeD>
+            <name>Strom G</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </DLCTreeD>
+        <DLCTreeE>
+            <name>Strom H</name>
+            <description>Velmi pěkný a poměrně silný strom. Zkrášluje venkovní prostory letiště.</description>
+        </DLCTreeE>
     </Objects>
     <Foods>
         <Pizza>Pizza</Pizza>
@@ -817,7 +982,7 @@
         <Jewelry>Šperky</Jewelry>
         <Makeup>Makeup</Makeup>
         <Medicine>Léky</Medicine>
-        <Souvenir>Suveníry</Souvenir>
+        <Souvenir>Suvenýry</Souvenir>
         <Shoes>Obuv</Shoes>
     </Products>
 </Entities>

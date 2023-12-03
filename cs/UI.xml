@@ -12,23 +12,15 @@
         <zh>zjednodušená Čínština</zh>
         <cs>Čeština</cs>
         <ru>Ruština</ru>
+        <es>Španělština - Mexiko</es>
+        <jp>Japonština</jp>
+        <es-es>Španělština</es-es>
+        <it>Italština</it>
+        <fi>Finština</fi>
     </i18n>
     <modal>
-        <EADialog>
-            <btn_forums>Diskusní fórum</btn_forums>
-            <btn_report>Nahlásit chybu</btn_report>
-            <btn_steam>Steam Workshop</btn_steam>
-            <text>Vítejte u hry SimAirport - předběžný přístup! Věříme, že se vám bude hra líbit a budete si ji užívat.Doporučujeme navštívit fóra, být aktivní a podílet se na komunitě a skutečně se aktivně podílet na vývoji společně s vývojáři. 
-       
-Děkujeme za podporu a děkujeme, že nám pomáháte udělat ze SimAirport tu nejlepší tycoon - style management hru, která byla kdy vytvořena!</text>
-        </EADialog>
         <mainmenu>
             <sharingbtn>Sdílet letiště</sharingbtn>
-            <modsbtn>Módy</modsbtn>
-            <optionsbtn>Nastavení</optionsbtn>
-            <exitbtn>Ukončit SimAirport</exitbtn>
-            <copyright>Copyright 2019, LVGameDev LLC.  Všechna práva vyhrazena.  
-SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
             <continue_playing>Pokračovat ve hře</continue_playing>
             <tutorials>Tutoriály</tutorials>
             <newgame>Nová hra</newgame>
@@ -37,6 +29,10 @@ SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
             <mods>Módy</mods>
             <settings>Nastavení</settings>
             <exit>Ukončit SimAirport</exit>
+            <Title>Hlavní Menu</Title>
+            <status>Módy &amp; Sdílení</status>
+            <optionsbtn>Nastavení</optionsbtn>
+            <exitbtn>Odejít</exitbtn>
         </mainmenu>
         <game>
             <new>
@@ -78,6 +74,18 @@ SimAirport je ochranná známka patřící LVGameDev LLC.</copyright>
                         <desc>Start na prázdné ploše doporučujeme pro zkušenější hráče. Pokud teprve začínáš, doporučujeme nechat tuto funkci vypnutou a začít hrát na startovním letišti.</desc>
                     </tt>
                 </blank>
+                <grants>
+                    <title>Vládní dotace</title>
+                    <tt>
+                        <desc>To umožní vašemu letišti získat finance a také zajímavé cíle. Zakázání dotací odemkne okamžitě všechny odměny.</desc>
+                    </tt>
+                </grants>
+                <funds>
+                    <label>Počáteční finance</label>
+                </funds>
+                <airlines>
+                    <label>Nastavení leteckých společností</label>
+                </airlines>
             </new>
             <save>
                 <title>Uložit hru</title>
@@ -107,6 +115,7 @@ Aby jste viděli všechny uložené hry, smažte znaky z vyhledávacího řádku
 
 Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hru?</desc>
                 </delete>
+                <selectscenariomap>Vybrat mapu pro editor scénářů</selectscenariomap>
             </load>
         </game>
         <options>
@@ -123,6 +132,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <reschange0>Potvrdit změny</reschange0>
                 <reschange1>Použít toho nastavení?</reschange1>
                 <reschange2>Původní nastavení bude znovu nastaveno za {0} sekund...</reschange2>
+                <agentrendering>Režim vykreslování postav</agentrendering>
             </graphics>
             <camera>
                 <title>Přiblížení kamery</title>
@@ -133,6 +143,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <mousepan>Posun po mapě pomocí středního tlačítka myši</mousepan>
                 <zoomspeed>Rychlost přibližování</zoomspeed>
                 <panspeed>Rychlost posunu mapy</panspeed>
+                <edgescrollOptionInboundOnly>Pouze příchozí</edgescrollOptionInboundOnly>
             </camera>
             <autosave>
                 <title>Automatické uložení</title>
@@ -148,21 +159,37 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <timeformat0>{0}-Hodin ({1})</timeformat0>
                 <language>Jazyk</language>
                 <language2>Pro nejlepší výsledky po změně jazyka, prosím restartujte SimAirport.</language2>
-                <zoneoverlays>Překrytí zón </zoneoverlays>
+                <zoneoverlays>Průsvitnost zón</zoneoverlays>
                 <autofocusbuildmenus>Stavební menu: Automaticky vyhledat</autofocusbuildmenus>
                 <holiday>Vánoční motivy</holiday>
-                <reset>Resetovat všechny nastavení</reset>
+                <reset>Resetovat polohu nabídek</reset>
                 <resetbtn>Resetovat</resetbtn>
                 <undergroundoverlay>Průsvitnost pozemních objektů v podzemí</undergroundoverlay>
                 <removeplannedwalls>Po postavení automaticky odstranit naplánované zdi</removeplannedwalls>
+                <legacysprites>Použít původní grafiku lidí</legacysprites>
+                <events>Náhodné události</events>
             </gameplay>
             <hotkeys>
-                <title>Nastavení klávesových zkratek</title>
+                <title>Nastavení kláves</title>
                 <col0>Klávesnice </col0>
                 <col1>Herní funkce</col1>
                 <reset0>Resetovat vše</reset0>
                 <reset1>Resetetovat všechno do PŮVODNÍHO nastavení </reset1>
+                <waiting>Čekání na zvolení klávesy...</waiting>
+                <waitingbody>Stiskněte jakoukoli klávesu pro přidělení funkce:</waitingbody>
             </hotkeys>
+            <timelapse>
+                <title>Timelapse</title>
+                <start>Spustit nahrávání</start>
+                <stop>Zastavit nahrávání</stop>
+                <PlaybackRate>Rychlost přehrávání</PlaybackRate>
+                <GameTimeInterval>Interval snímání</GameTimeInterval>
+                <CapturePaused>Nahrávat při pozastavené hře?</CapturePaused>
+                <FramesPerSecond>FPS</FramesPerSecond>
+            </timelapse>
+            <nameEntry>
+                <title>Vlastní jméno</title>
+            </nameEntry>
         </options>
         <mods>
             <test>Načíst testovací letiště</test>
@@ -199,6 +226,19 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <title>Smluvní podmínky</title>
                     <desc0>Musíte si projít a poté souhlasit se smluvními podmínkami pro Steam workshop, až poté budete moci sdílet vaše příspěvky veřejně!</desc0>
                 </tt>
+                <status>Stav stahování módů</status>
+                <unavailable>Steam je nedostupný.</unavailable>
+                <help>Ujistěte se, že máte otevřený Steam a že jste přihlášeni. Přihlaste se a restartujte Steam a SimAirport a zkuste to znovu.</help>
+                <onworkshop>Je na Workshopu.</onworkshop>
+                <notworkshop>Není na Workshopu.</notworkshop>
+                <Update>Aktualizovat letiště</Update>
+                <Publish>Publikovat letiště</Publish>
+                <missing>Stáhnout chybějící módy</missing>
+                <verify>Ověření vlastnictví sselhalo</verify>
+                <view>Ukázat na Steamu.</view>
+                <moment>Chvilku strpení, prosím...</moment>
+                <thirtyseconds>Omlouváme se, ale něco se pokazilo. Zkuste restartovat Steam i hru a zkuste to znovu.</thirtyseconds>
+                <desc2b>Nahrávání, {0} dokončeno</desc2b>
             </steam>
             <airports>
                 <title>Sdílené letiště</title>
@@ -206,8 +246,8 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <browse>Procházet Steam workshop</browse>
             </airports>
             <airlines>
-                <title>Vlastní mód - aerolinie </title>
-                <create>Vytvořit aerolinie</create>
+                <title>Vlastní mód - letecké společnosti </title>
+                <create>Vytvořit leteckou společnost</create>
                 <browse>Procházet složku</browse>
                 <import>Vložit do hry</import>
                 <reimport>Znovu vložit z disku</reimport>
@@ -239,7 +279,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <k_PaxCapacity>Kapacita cestujících</k_PaxCapacity>
                 <k_MinRunway>Minimální délka ranveje</k_MinRunway>
                 <k_MinGate>Minimální velikost brány</k_MinGate>
-                <airlinecount>Aerolinie s letadlem</airlinecount>
+                <airlinecount>Letecká společnost s letadlem</airlinecount>
                 <ingame>Je v aktuální hře</ingame>
                 <nogame>Není v aktuální hře</nogame>
                 <steam0>Stav Steamu</steam0>
@@ -275,9 +315,9 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <desc0>Měl by jste aktualizovat nebo publikovat módy, které vlastníte nebo jste jejich autorem.</desc0>
             </tt0>
             <tt1>
-                <desc0>Tento mod vyžaduje, aby ostatní mody (vlastní letadlo) fungovaly správně. Tyto ostatní mody, které jsou vyžadovány, MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát..</desc0>
+                <desc0>Tento mod vyžaduje, aby ostatní mody (letadla) fungovaly správně. Tyto vyžadované módy MUSÍ být nahrány do Steamu předtím, než bude možné tento mód nahrát.</desc0>
                 <desc1>Tento mód vyžaduje vlastní podobu před jeho nahráním do Steam workshopu.</desc1>
-                <desc2>Mody lze nahrát do Steam workshopu pouze, pokud obsahují podobu..</desc2>
+                <desc2>Módy lze nahrát do Steam workshopu pouze, pokud obsahují podobu.</desc2>
             </tt1>
             <tt2>
                 <title>Nelze spustit ukázku</title>
@@ -286,9 +326,22 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <tt3>Vytvořte nový model letadla, který vám umožní vytvořit zcela nový typ letadla. Tyto letouny můžete zahrnout do libovolného z vašich vlastních módů a sdílejte jej na Steam Workshopu.</tt3>
             <tt4>Aktualizujte seznam dostupných modelů letadel, které byly nalezeny v počítači.</tt4>
             <tt5>Otevře umístění složky módu v programu prohlížeče souborů v počítači.</tt5>
-            <tt6>Vytvoření nového režimu aerolinie pomocí výchozích šablon; můžete upravit nastavení a grafiku pomocí programů třetích stran.</tt6>
-            <tt7>Aktualizujte výše uvedený seznam dostupných modů aerolinek, které naleznete v počítači.</tt7>
+            <tt6>Vytvoření nového režimu letecké společnosti pomocí výchozích šablon; můžete upravit nastavení a grafiku pomocí programů třetích stran.</tt6>
+            <tt7>Aktualizujte výše uvedený seznam dostupných modů leteckých společností, které naleznete v počítači.</tt7>
             <tt8>Nyní již hrajete módovou testovací mapu!</tt8>
+            <generalMods>
+                <modIssue>
+                    <header>Detekován problém s módem!</header>
+                    <content>
+Vypadá to, že některé mody se nenačetly nebo se je nepodařilo správně otevřít, mějte na paměti, že může dojít k problémům.\n Ve hře se můžou vyskytnout chybějící objekty! \n Pokud budete pokračovat ve hře, nezapomeňte ji uložit jako nový soubor!
+              </content>
+                </modIssue>
+                <ModPrefix>[Mód] </ModPrefix>
+            </generalMods>
+            <strings>
+                <modded>Mód</modded>
+                <default>Základní</default>
+            </strings>
         </mods>
         <staff>
             <title>Personál</title>
@@ -327,7 +380,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
             <title>Řízení letů</title>
             <offers>
                 <title>Dostupné letové smlouvy</title>
-                <col0>Letecké aerolinie</col0>
+                <col0>Letecké společnosti</col0>
                 <col1>Hodnocení</col1>
                 <col2>Bonus při podepsání</col2>
                 <legend>Doby letů:</legend>
@@ -388,6 +441,7 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                 <new>Nové lety ({0})</new>
                 <slots>Časové úseky</slots>
                 <standby>Pohotovost</standby>
+                <timesnap>Přichycení času:</timesnap>
             </schedule>
         </flightmgr>
         <flightstatus>
@@ -435,12 +489,6 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                     <title>Bankovní půjčky</title>
                     <loan>Současný bankovní úvěr</loan>
                     <interest>Aktuální denní splátka</interest>
-                    <max>Aktuální maximální úvěr</max>
-                    <borrow>Půjčit si{0}</borrow>
-                    <pay>Splatit {0} </pay>
-                    <desc1>Pokud si půjčit peníze z banky, bude vám banka každý den poplatky.</desc1>
-                    <desc2>Důležité: Za každý den se automaticky odečítají pouze úroky. Půjčku můžete kdykoliv splatit.</desc2>
-                    <desc3>Úvěr na maximální úrovni</desc3>
                     <apply>
                         <title>Vzít si půjčku</title>
                         <estimated>Odhadovaný úrok</estimated>
@@ -464,10 +512,10 @@ Tohle navždy smaže zvolenou hru. Jste si jisti, že chcete smazat uloženou hr
                         <txt0>Splatit {0}</txt0>
                         <txt1>Splať peníze a sniž tak celkovou půjčku .</txt1>
                     </repayBtn>
-                    <description>Můžete si půjčit peníze z banky, ale pozor banka vám budee každý den účtovat poplatky.
+                    <description>Můžete si půjčit peníze z banky, ale pozor banka vám bude každý den účtovat poplatky.
                         
 DŮLEŽITÉ UPOZORNĚNÍ: 
-Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. Půjčku může splatit pouze v tomto okně.</description>
+Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. Půjčku můžete splatit pouze v tomto okně.</description>
                 </loans>
                 <pl>
                     <title>Zisk &amp; Ztráta</title>
@@ -485,7 +533,7 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                 <valuation>
                     <title>Hodnota letiště</title>
                     <value>Současná cena</value>
-                    <total>Celkové nacenění letiště</total>
+                    <total>Celková hodnota letiště</total>
                     <sellairport>Prodat letiště</sellairport>
                     <tt_desc0>Prodej vašeho letiště vám umožní začít znovu s vyšším počátečním zůstatkem a zachováním aktuálního výzkumu.</tt_desc0>
                     <tt_desc1>Poznámka: Toto letiště můžete stále spustit z posledního uložení.</tt_desc1>
@@ -493,6 +541,14 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                     <tt_desc3>PODMÍNKY</tt_desc3>
                     <requirements0>Provozujte letiště alespoň {0} dní</requirements0>
                     <requirements1>Minimální hodnota letiště {0}</requirements1>
+                    <land>Pozemek</land>
+                    <foundation>Budovy</foundation>
+                    <pavement>Infrastruktura</pavement>
+                    <objects>Zařízení</objects>
+                    <resources>Palivo</resources>
+                    <cash>Finance</cash>
+                    <debt>Dluhy a závazky</debt>
+                    <revenue>Úprava výnosů</revenue>
                 </valuation>
                 <credit>
                     <title>Bankovní hodnocení</title>
@@ -510,6 +566,10 @@ Každý den platíte pouze poplatky za půjčku. Tudíž půjčku nesplácíte. 
                 </credit>
                 <perfectopsbonus>
                     <title>Bonus za perfektní služby</title>
+                    <day>Den #</day>
+                    <achieve>Získán bonus?</achieve>
+                    <flights>Počet letů</flights>
+                    <amount>$ částka</amount>
                 </perfectopsbonus>
             </tabs>
         </finance>
@@ -562,9 +622,9 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <status>Stav</status>
                     </col>
                     <restrictions>Nastavení ranvejí</restrictions>
-                    <restriction_arrival>Povolit nebo zakázat přílety (přistání) na této přistávací dráze</restriction_arrival>
-                    <restriction_departure>Povolit nebo zakázat odlety (vzlety) této dráze</restriction_departure>
-                    <restriction_common>Buďte opatrní - lety budou zrušeny, pokud nebudou mít dostupnou přistávací dráhu, která bude mít přístup k jejich bráně!</restriction_common>
+                    <restriction_arrival>Povolit nebo zakázat přistání na této přistávací dráze</restriction_arrival>
+                    <restriction_departure>Povolit nebo zakázat vzlety z této přistávací dráhy</restriction_departure>
+                    <restriction_common>Pozor - lety mohou být zrušeny, pokud nebude dostupná jiná přistávací dráha!</restriction_common>
                 </runways>
                 <fuel>
                     <title>Palivo</title>
@@ -614,6 +674,8 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <title>Výměna paliva</title>
                         <desc1>Cena paliva. Tento horní panel můžete volitelně deaktivovat v oblasti Palivo v Ovládacím centru.</desc1>
                     </tt_hud>
+                    <buy>Koupit</buy>
+                    <sell>Prodat</sell>
                 </fuel>
                 <maintenance>
                     <title>Údržba</title>
@@ -625,24 +687,34 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                         <never>Nikdy nepovolit údržbu</never>
                     </slider>
                     <window>Okno údržby</window>
-                    <info>Údržba je povolena během výše uvedeného času {0}. Objekty na nebo pod nastavenou hodnotou údržby budou opraveny. Během opravy jsou objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info>
                     <e_inprog>Údržba již probíhá</e_inprog>
                     <e_nothing>Nic k opravení</e_nothing>
                     <col0>Typ objektu</col0>
-                    <col1>Klesne-li opotřebení pod tuto hodnotu, objekt bude opraven</col1>
-                    <row0>Ranveje</row0>
-                    <row1>Letištní brány</row1>
-                    <row2>Záchody</row2>
-                    <row3>Skenery zavazadel</row3>
-                    <row4>Skenery těla</row4>
-                    <row5>Nabíjecí stanice telefonů</row5>
-                    <tt_na>
-                        <desc1>K dispozici je {0}, které lze aktualizovat.</desc1>
-                    </tt_na>
-                    <row6>Arkádové hry</row6>
+                    <col1>Opravit pokud údžba klesne pod</col1>
                     <col2>Priorita</col2>
                     <col3>Nastavení</col3>
-                    <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz.Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
+                    <info_blurb>Údržba je povolena během výše uvedeného "okna údržby". Objekty na nebo pod nastavenou hodnotu údržby budou opraveny. Při opravách jsou tyto objekty dočasně mimo provoz. Pravidelná údržba vás stojí více, ale nebrání provozu letiště!</info_blurb>
+                    <Urgent>Urgentní</Urgent>
+                    <High>Vysoká</High>
+                    <Normal>Normální</Normal>
+                    <Low>Nízká</Low>
+                    <repairheading>Nastavení oprav</repairheading>
+                    <repairsubheading>Přizpůsobte četnost údržby pro každý typ objektu.</repairsubheading>
+                    <repairbody>Vyberte si jednu z následujících možností. Aby vaši zaměstnanci věděli, kdy a jak často mají provádět údržbu.
+
+Pouze ve vymezeném čase
+Údržba objektů bude spuštěna pouze ve vámi vymezeném čase. Po uplynutí tohoto času bude veškerá údržba ukončena.
+
+Vždy dokončit
+Jakmile začne údržba objektu, pracovníci ji VŽDY dokončí - i když již uplyne čas vymezený pro údržby pracovníci budou pokračovat v údržbě, dokud nebude objekt zcela opraven.
+
+Kdykoliv
+Pracovníci budou ignorovat vymezený čas a zahájí údržbu okamžitě, jakmile to bude objekt vyžadovat a skončí až když bude objekt zcela opraven.</repairbody>
+                    <During>Pouze ve vymezeném čase</During>
+                    <Finish>Vždy dokončit</Finish>
+                    <Any>Kdykoliv</Any>
+                    <enableOverride>Povolit přepsání opravy</enableOverride>
+                    <disableOverride>Nepovolit přepsání opravy</disableOverride>
                 </maintenance>
                 <transport_capacity>
                     <title>Přepravní kapacita</title>
@@ -653,11 +725,71 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
                 </transport_capacity>
                 <weather>
                     <title>Předpověď počasí</title>
-                    <wind>Ryclost větru</wind>
+                    <wind>Rychlost větru</wind>
                     <precipitation>Srážky</precipitation>
                 </weather>
+                <gateOps>
+                    <title>Nastavení brán/title>
+                    <gateCloseTime>
+                        <title>Čas uzavření</title>
+                        <description>V kterou dobu před odletem by brána měla přestat přijímat nové cestující.</description>
+                    </gateCloseTime>
+                </gateOps>
             </tabs>
         </operations>
+        <pax>
+            <needs>Spokojenost cestujících</needs>
+            <time>Časová analýza</time>
+            <key1>Naprosto spokojeni</key1>
+            <key2>Mírně nespokojeni</key2>
+            <key3>Velmi nespokojeni</key3>
+            <pax>Cestující #</pax>
+            <spent>Strávený čas</spent>
+            <all>Všechny lety</all>
+            <today>Dnes</today>
+            <yesterday>Včera</yesterday>
+        </pax>
+        <agentreports>
+            <Arrivals_ByAge>Přílety - podle strávené doby</Arrivals_ByAge>
+            <AllPax_ByAge>Všichni cestující - podle strávené doby</AllPax_ByAge>
+            <AllPax_ByType>Všichni cestující - podle typu</AllPax_ByType>
+            <PaxNeeds>Potřeby cestujících</PaxNeeds>
+            <InsecurePax_InSecureArea>Nezkontrolovaný cestující v zabezpečené oblasti</InsecurePax_InSecureArea>
+        </agentreports>
+        <aircraftdemo>
+            <title>Demo letadla</title>
+            <col0>Krátké jméno</col0>
+            <col1>Dlouhé jméno</col1>
+            <col2>Stav módu</col2>
+            <tt>
+                <title>Upravit sloupce</title>
+                <desc1>Klikněte sem a změňte viditelnost sloupců. Změňte velikost okna pomocí úchytu vpravo dole.</desc1>
+            </tt>
+        </aircraftdemo>
+        <sideBar>
+            <dismiss>Odstranit</dismiss>
+            <thanksFF>Děkujeme, že jste si zakoupili balíček Frequent Flyer Pack!</thanksFF>
+            <legacySpritesMessage>Nezapomeňte vybrat grafiku, které máte nejraději!
+Zkontrolujte nastavení =&gt; Gameplay =&gt; Použít původní grafiku.
+Použítím staré grafiky cestujících vám poskytne starý kreslený styl.</legacySpritesMessage>
+            <customNameButton>Vložte vaše vlastní jméno</customNameButton>
+        </sideBar>
+        <nameEntry>
+            <title>Vlastní jméno</title>
+            <description>Zadejte své vlastní jméno, které chcete vidět ve hře!</description>
+            <current>Aktuální jméno:</current>
+            <loading>Načítání ...</loading>
+            <newName>Nové jméno:</newName>
+            <appliesTo>Použít pro:</appliesTo>
+            <submit>Odeslat</submit>
+            <submitting>Probíhá přídávání jména ...</submitting>
+            <failedToConnect>Připojení k API se nezdařilo</failedToConnect>
+            <genders>
+                <all>Všichni</all>
+                <male>Pouze muži</male>
+                <female>Pouze ženy</female>
+            </genders>
+        </nameEntry>
     </modal>
     <navbtntooltip>
         <build>
@@ -668,7 +800,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <zones>
             <title>Zóny</title>
             <subheading>Oblasti &amp; Místnosti</subheading>
-            <description>Vytyčte nové oblasti, ať už je to odbavení, bezpečnostní kontrola, kanceláře, restaurace a další.</description>
+            <description>Vytyčte nové zóny, ať už je to odbavení, bezpečnostní kontrola, kanceláře, restaurace a další.</description>
         </zones>
         <staff>
             <title>Zaměstnanci</title>
@@ -678,17 +810,17 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <finance>
             <title>Finanční centrum</title>
             <subheading>Sleduj své peníze &amp; Získej půjčku</subheading>
-            <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - výnos &amp; informace o výdajích nebo uzavření bankovního úvěru.</description>
+            <description>Všechny vaše finance přehledně. Zkontrolujte finanční situaci - příjem, výdaje nebo uzavřete bankovní úvěr.</description>
         </finance>
         <research>
             <title>Výzkum</title>
             <subheading>Výzkum &amp; Rozvoj pokročilých schopností</subheading>
-            <description>Umožňuje vaším administrátorům vyzkoumat nové objekty a nástroje, vylepšení stávajících nástrojů a mnoho dalších užitečných technických vychytávek.</description>
+            <description>Umožňuje vaším ředitelům vyzkoumat nové objekty a nástroje, vylepšení stávajících nástrojů a mnoho dalších užitečných technických vychytávek.</description>
         </research>
         <operations>
             <title>Operační ovládací panel</title>
             <subheading>Podrobná kontrola &amp; Přizpůsobení</subheading>
-            <description>Upravte možnosti pozemní dopravy, konfigurujte své přistávací dráhy a spravujte palivové služby letiště.</description>
+            <description>Upravte možnosti pozemní dopravy, nastavte své přistávací dráhy a spravujte palivové služby letiště.</description>
         </operations>
         <flight_schedule>
             <title>Řízení letů</title>
@@ -698,7 +830,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <flight_status>
             <title>Stav letů</title>
             <subheading>Zobrazení dnešních letů</subheading>
-            <description>Zjistěte: zda nadcházející lety přiletí na čas, kolik cestujících nastoupilo do letadel a další podrobné údaje o stavech letů.</description>
+            <description>Zjistěte, zda nadcházející lety přiletí na čas, kolik cestujících nastoupilo do letadel a další podrobné údaje o stavech letů.</description>
         </flight_status>
         <overlay_SecureAreas>
             <title>Bezpečné oblasti</title>
@@ -732,11 +864,11 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <desc4>Odhadovaný příjem za předpokladu: všchny lety jsou plné, letadla nemají zpoždění a žádný let není zrušen.</desc4>
             <desc5>Nedávné transakce</desc5>
             <desc6>Žádné nedávné transakce</desc6>
-            <desc7>Daně</desc7>
             <pTax>Daň z nemovitosti</pTax>
             <iTax>Daň z příjmu</iTax>
-            <bankruptWarning>do BANKROTU zbývá</bankruptWarning>
+            <bankruptWarning>vám zbývá do BANKROTU </bankruptWarning>
             <bankruptHelper>Pokud se váš zůstatek do této doby nestane POZITIVNÍ, zbankrotujete a hra skončí.</bankruptHelper>
+            <maxStaff>Maximální náklady za zaměstnance</maxStaff>
         </bank>
         <airlines>
             <title>Zájem leteckých společností</title>
@@ -745,10 +877,14 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
         <passengers>
             <title>Spokojenost cestujících</title>
             <desc1>Kapacita přepravy</desc1>
-            <desc2>{
-}/hodinu</desc2>
+            <desc2>{0}/hodinu</desc2>
             <desc3>Celkem cestujících</desc3>
             <desc4>Přehled spokojenosti</desc4>
+            <throughput>Počet cestujících, kteří dnes využili tvoje letiště</throughput>
+            <arrivals>arrivals</arrivals>
+            <connections>{0} s návazným letem</connections>
+            <departures>úspěsně odbavených</departures>
+            <faildepartures>zmeškaných odletů</faildepartures>
         </passengers>
         <weather>
             <title>Počasí SimWeather</title>
@@ -760,7 +896,7 @@ Kolik účtujete leteckým společnostem za používání terminálu na jednoho 
             <wind1>Rychlost větru stoupá</wind1>
             <rain0>Množství srážkek klesá</rain0>
             <rain1>Množství srážkek stoupá</rain1>
-            <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich přistávacích drah, abyste zvýšili maximální přípustný vítr, pokud již máte k dispozici svislé i vodorovné dráhy.</warning>
+            <warning>Všechny ranveje jsou v současné době neaktivní kvůli počasí. Zvažte upgradování vašich ranvejí, aby letadla mohla přistávat i při silnějším větru, pokud můžete, postavte ranveje ve svislé i vodorovné poloze.</warning>
         </weather>
         <overlay_paxflow>
             <title>Tok cestujících</title>
@@ -782,6 +918,16 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <floor_aboveground>{0} nadzemní podlaží</floor_aboveground>
             <floor_underground>{0} podzemní podlaží</floor_underground>
         </floorselector>
+        <scenario_editor>
+            <title>Editor scénářů</title>
+            <subheading>Editovat aktuální scénář.</subheading>
+            <description>Nastavte scénář, přidejte cíle s odměnami, nastavte podmínky s důsledky a nastavte, co je uzamčeno a odemčeno.</description>
+        </scenario_editor>
+        <grants>
+            <title>Vládní dotace</title>
+            <subheading>Cíle a dotace pro rozšíření letiště</subheading>
+            <description>Zobrazit všechny dostupné dotace poskytnuté vládou na podporu rozvoje tohoto letiště.</description>
+        </grants>
     </navbtntooltip>
     <land>
         <tag>Koupit pozemek</tag>
@@ -793,7 +939,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <desc>Opravdu chcete tento pozemek koupit?</desc>
         </tt1>
         <tt2>
-            <title>DŮLEŽITÉ - Uložte svou hru!</title>
+            <title>POZOR - uložte si svou hru!</title>
             <desc>Během koupi nového pozemku může dojít k pádu hry - hra bude automaticky uložena pod názvem "land_expansion.airport" . Velmi doporučujeme uložit hru manuálně ještě před pokračováním.</desc>
         </tt2>
     </land>
@@ -916,6 +1062,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LevelUp>O patro víš</LevelUp>
             <LevelDown>O patro níž</LevelDown>
             <LevelGroundFloor>Přenout se na přízemí</LevelGroundFloor>
+            <ClearTool>Demontovat</ClearTool>
+            <TimelapseToggle>přepnout timelapse</TimelapseToggle>
         </keyfunc>
         <needs>
             <Bladder>Potřeba toalety</Bladder>
@@ -939,6 +1087,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Rest>Odpočinek</Rest>
             <Hunger>Hlad</Hunger>
             <Thirst>Žízeň</Thirst>
+            <Meeting>Zasedání</Meeting>
+            <OfficeWork>Kancelářská práce</OfficeWork>
         </needs>
         <queueType>
             <title>Fronta</title>
@@ -986,6 +1136,8 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Gate>Nepodařilo se rezervovat bránu</Gate>
             <Expired>Platnost vypršela</Expired>
             <Reneged>Zrušeno leteckou společností</Reneged>
+            <GateIssue>Problém na bráně</GateIssue>
+            <None>N/A</None>
         </flightstatusreason>
         <research>
             <RequiresResearch>Vyžaduje výzkum {0}</RequiresResearch>
@@ -1061,6 +1213,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <Dismantle>Demontovat</Dismantle>
             <TroubleshootPath>Zobrazit nezabezpečenou cestu</TroubleshootPath>
             <Schedule>Směny zaměstnanců</Schedule>
+            <ForceDepartureContent>Jste si jistí, že chcete vynutit okamžitý odlet tohoto letadla?</ForceDepartureContent>
         </inspect>
         <tooltip>
             <requirements>Požadavky nejsou splněny</requirements>
@@ -1135,6 +1288,9 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <LateDepartureFCWarning>Upozornění: Čeká se, aby se letová posádka dostala na palubu. Klikněte na "Zvýrazněte cestující", abyste zjistili, proč.</LateDepartureFCWarning>
             <RevenueYesterday>Včerejší příjmy</RevenueYesterday>
             <InboundPax>Přijíždějící cestující:</InboundPax>
+            <ApronBusArrivalPassengers>Na cestě s cestujícími z brány {0}</ApronBusArrivalPassengers>
+            <ApronBusDeparturePassengers>Na cestě s cestujícími k bráně {0}</ApronBusDeparturePassengers>
+            <RemainingSeats>Zbývá volných míst: {0}</RemainingSeats>
         </tooltip>
         <functionality>
             <ReqFunctionalZone>Musí být funkční {0}</ReqFunctionalZone>
@@ -1222,7 +1378,7 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <OneRunwayValidation>{0} Ranvej musí být funkční</OneRunwayValidation>
             <UnscheduledFlightValidation>Jeden nebo více přijatých letů NENÍ ještě zařazeno do hlavního letováho plánu! Klepnutím je přidejte nyní.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Najměte jednoho nebo více pracovníků, kteří dokončí vaše nevyřízené stavební projekty!</WorkmenCountValidation>
-            <ReqFoundationBelow>Vyžaduje základy na podlaze níže</ReqFoundationBelow>
+            <ReqFoundationBelow>Vyžaduje základy na podlaží níže</ReqFoundationBelow>
             <ReqDemolishAbove>Horní patro musí být nejdříve zničeno</ReqDemolishAbove>
             <ReqFloorUnderground>Musí být pod zemí</ReqFloorUnderground>
             <ReqFloorAboveGround>Musí být nad zemí</ReqFloorAboveGround>
@@ -1236,6 +1392,32 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ReqPathTo>Musí mít dostupnou cestu k {0}</ReqPathTo>
             <ReqArcadeGames>Alespoň 1 arkádová hra</ReqArcadeGames>
             <ReqDoorReachableFromGAD>Dveře musí být přístupné nejméně z 1 přiřazené kontroly letenek.</ReqDoorReachableFromGAD>
+            <ReqReception>Vyžaduje být chráněna jednou nebo více recepčními zónami.</ReqReception>
+            <ZoneAlreadySecure>Musí být dostupné z místa, které není zabezpečeno a ani pouze pro personál.</ZoneAlreadySecure>
+            <PlaceFloor>Musí být umístěno na {0} podlaží</PlaceFloor>
+            <OccupiesFloors>Zabírá tyto podlaží: {0}</OccupiesFloors>
+            <BlockedAbove>Blokováno překážkou nahoře!</BlockedAbove>
+            <LRTAccess>Vyžaduje přístup k výstupní zóně nebo k zastávce vlaku.</LRTAccess>
+            <ReqAdjacentRoadOnly>Vyžaduje silnici v blízkosti.</ReqAdjacentRoadOnly>
+            <ReqFunctionalHangarWith>Vyžaduje alespoň jeden funkční hangár s {0}, který je dostupný po silnici nebo příjezdové dráze.</ReqFunctionalHangarWith>
+            <RequiresPath>Vyžaduje existující cestu z {0} do {1}</RequiresPath>
+            <ReqDeliveryStorage>Musí být ve funkční zóně skladu nebo zóně zásobování.</ReqDeliveryStorage>
+            <ReqDemolishPlacables>Objekty musí být nejprve zbourány</ReqDemolishPlacables>
+            <ReqProducts>Potřebuje alespoň jeden produkt k prodeji</ReqProducts>
+            <CannotTunnel>Nelze postavit tunel pod existující stavbou!</CannotTunnel>
+            <ReqTerminalDoorFloor>Chybějící dveře do terminálu na {0}</ReqTerminalDoorFloor>
+            <DoorFaceTerminal>Dveře by neměly být umístěny k příjezdové dráze.</DoorFaceTerminal>
+            <TaxiwayNotIndoors>Příjezdová dráha by neměla být umístěna vevnitř.</TaxiwayNotIndoors>
+            <TaxiwayNotOnGate>Příjezdová dráha by neměla být umístěna na jiné bráně.</TaxiwayNotOnGate>
+            <ReqSecurityAllStations>Alespoň jedna ochranka na každém kroku bezpečnostní kontroly.</ReqSecurityAllStations>
+            <ReqSecurityId>Zaměstnanci u &gt;0 Sběrných míst zakázaných objektů</ReqSecurityId>
+            <ReqSecurityBag>Zaměstnanci u &gt;0 Skenerů příručních zavazadel</ReqSecurityBag>
+            <ReqSecurityBs>Zaměstnanci u &gt;0 Detektorů kovů nebo Skenerů těla</ReqSecurityBs>
+            <ScheduledPMFlightsLights>Je naplánován noční let, ale není dostupná žádná dostatečně dlouhá přistávací dráha se světly!</ScheduledPMFlightsLights>
+            <CannotDismantleUpgading>Objekt nemůže být odstraněn v průběhu stavby vylepšení!</CannotDismantleUpgading>
+            <CannotDismantleMaintenance>Objekt nemůže být odstraněn když probíhá údržba!</CannotDismantleMaintenance>
+            <CannotDismantleFlights>Brány nelze odstranit, pokud mají naplánován jakýkoli let nebo je právě využívány letadlem!</CannotDismantleFlights>
+            <RemoteGateSwitchDoors>Prohodit vchod/východ</RemoteGateSwitchDoors>
         </functionality>
         <RequiresMaterialValidation>Je zapotřebí {0} {1}</RequiresMaterialValidation>
         <ZoneMaxValidation>Maximální počet zón {1} je {0}.</ZoneMaxValidation>
@@ -1257,11 +1439,40 @@ Alternativní zobrazení - pomocí tlačítka TAB přepněte.
             <ConnectsToMax>Může být připojen až k {0} branám</ConnectsToMax>
             <ConnectsToMax2>Může být připojen až k {0} reproduktorům</ConnectsToMax2>
             <PA>Obousměrné výstupní pokrytí</PA>
-            <LRT>Musí být umístěn na levé straně koleje</LRT>
             <RequiresStaff>Vyžaduje, aby pracovník pracoval</RequiresStaff>
             <Limit>Maximum {0}</Limit>
             <NoDestroy>Nemůže být zničen</NoDestroy>
         </NotableProperties>
+        <overlay>Zobrazován přehled:</overlay>
+        <Speed>Rychlost</Speed>
+        <UsageEfficiency>Účinnost: {0}. Maximální účinnost při použití 5 Skenerů</UsageEfficiency>
+        <head>Začátek</head>
+        <tail>Konec</tail>
+        <on>Zapnuto</on>
+        <off>Vypnuto</off>
+        <TooltipDelay>Zpoždění popisku</TooltipDelay>
+        <ZoneEditValidation>Zóny nemohou být upravovány z jiného podlaží.</ZoneEditValidation>
+        <floorPortals>
+            <directions>
+                <biDir>Obousměrný</biDir>
+                <fromTo>Z podlaží {0} na {1}</fromTo>
+                <unknown>NEZNÁMÝ</unknown>
+            </directions>
+        </floorPortals>
+        <baggageCarousel>
+            <name>Zavazadlo{0}</name>
+            <bagsReady>Připraveno zavazadel: </bagsReady>
+            <bagsRecentArrived>Nedávné zavazadla: </bagsRecentArrived>
+        </baggageCarousel>
+        <random>Náhodné</random>
+        <notifications>
+            <actions>
+                <clickToView>Kliknutím levým tlačítkem myši přejdete na místo.</clickToView>
+            </actions>
+            <FlightCanceled>Let {0} byl zrušen!</FlightCanceled>
+            <FlightCanceledSub>Důvod zrušení: {0}.</FlightCanceledSub>
+            <Fire>Začalo hořet, hasiči jsou na cestě!</Fire>
+        </notifications>
     </strings>
     <zones>
         <None>
@@ -1356,6 +1567,14 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <name>Obchod</name>
             <description>Prodávejte nejnovější značkové produkty. Cestujícím tak dáte další možnost, kde utratit peníze, tím je uděláte šťastnými!</description>
         </Store>
+        <Conference_Room>
+            <name>Konferenční místnost</name>
+            <description>V těchto konferenčních místnostech se konají schůzky zástupců leteckých společností s vašich řediteli/obchodními zástupci. Ty jsou nezbytné pro zlepšení komunikace.</description>
+        </Conference_Room>
+        <Reception>
+            <name>Recepce pro návštěvníky</name>
+            <description>Používají ji obchodní zástupci leteckých společností k přístupu do prostor, které nejsou určeny pro běžné cestující. Použijte tuto zónu jako bariéru, za kterou už cestující nebudou mít přístup.</description>
+        </Reception>
     </zones>
     <money>
         <reason>
@@ -1413,6 +1632,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <Taxes>Daně</Taxes>
             <Maintenance>Údržba</Maintenance>
             <Advertising>Reklamní poplatky</Advertising>
+            <Grant>Government Grants</Grant>
         </category>
         <txs>{0} transakcí</txs>
     </money>
@@ -1613,6 +1833,14 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <name>Klonovací nástroj</name>
             <description>Kopírujte a vkládejte objekty na vašem letišti! Lze použít pouze vevnitř a několik objektů nelze klonovat. Klepnutím a tažením přetáhněte oblast a poté kliknutím na levé tlačítko myši umístěte zkopírovanou oblast. Otočte "kopii" otočným tlačítkem myši, pravým tlačítkem myši vrátíte kopii zpět do původní polohy.</description>
         </CloneTool>
+        <ClearConcrete>
+            <name>Holý beton</name>
+            <description>Odstraní pouze podlahu, zachovává základy</description>
+        </ClearConcrete>
+        <Extinguish>
+            <name>Uhasit</name>
+            <description>Pomocí tohoto jednoduchého nástroje uhasíte veškerý oheň a teplo na vašem letišti!</description>
+        </Extinguish>
     </tools>
     <research>
         <Finance>
@@ -1638,7 +1866,7 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         </MultiLaneAccess>
         <UpgradedBuses>
             <name>Vylepšení autobusů</name>
-            <row0>Místo jednoho autobudu dva. A to už se vyplatí!</row0>
+            <row0>Tvoje autobusy pojmou dvojnásobek cestujících.</row0>
         </UpgradedBuses>
         <Pricing>
             <name>Ceny za služby</name>
@@ -1751,6 +1979,18 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
             <name>Vylepšení rozbočovačů</name>
             <row0>Umožňuje konstrukci vylepšení pro rozbočovače zavazadel pro zrychlení třídění zavazadel.</row0>
         </BagHubBoosters>
+        <OneWayPaths>
+            <name>Jednosměrné dveře</name>
+            <row0>Umožňuje stavbu jednosměrných dveří pro lepší  kontrolu nad tokem cestujících skrz vaše letiště.</row0>
+        </OneWayPaths>
+        <MultipleDropoffs>
+            <name>Více zón pro výstup a nástup</name>
+            <row0>Pro každou zónu pro výstup a nástup bude vyslán jeden autobus. Nyní můžete mít až tři zóny od každé. Cestující si zvolí vždy tu, která bude nejblíže jejich cíli.</row0>
+        </MultipleDropoffs>
+        <GateControl>
+            <name>Nastavení brán</name>
+            <row0>Umožňuje nastavit operace související s bránou.</row0>
+        </GateControl>
     </research>
     <staffScheduler>
         <title>Editor směn:</title>
@@ -1773,6 +2013,8 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <Assigning>Přiřazeno:</Assigning>
         <editOptions>Nástroje pro úpravu</editOptions>
         <copy>Kopírovat</copy>
+        <tooltipDescription2>Vytvořte směny, které vám umožní přidělit zaměstnancům pracoviště v různých částech dne. A vy ušetříte peníze, když nejsou na směně!</tooltipDescription2>
+        <ConsistentOverlayName>Přehled směn zaměstnanců</ConsistentOverlayName>
     </staffScheduler>
     <WelcomeToSimAirport>Vítejte u hry SimAirport!</WelcomeToSimAirport>
     <RenameZone>Přejmenovat zónu</RenameZone>
@@ -1780,11 +2022,11 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <BusArrivals>Přijíždějící zaměstnaci</BusArrivals>
         <ManageAdmin>Správa ředitelů</ManageAdmin>
         <ManageSchedules>Správa směn</ManageSchedules>
-        <ShortHour>/hr</ShortHour>
+        <ShortHour>/hod</ShortHour>
         <WorkmenWarning>Potřebuješ alespoň jednoho!</WorkmenWarning>
         <TooFewStaff>Potřebuješ {0} dalších!</TooFewStaff>
-        <AdminVacant>Volný</AdminVacant>
-        <AdminFilled>Obsazený</AdminFilled>
+        <AdminVacant>Lze zaměstnat</AdminVacant>
+        <AdminFilled>Již zaměstnaný</AdminFilled>
         <Hire>Přimout</Hire>
         <Fire>Vyhodit</Fire>
         <Add>Přidat pracovníky</Add>
@@ -1796,12 +2038,12 @@ Umožňuje doručit veškeré stavební potřeby, zásoby a další objednávky.
         <No>Ne</No>
         <Busy>Zaneprázdněný</Busy>
         <Idle>Nečinný</Idle>
-        <Away>Pryč</Away>
-        <FireHover>Tohle nikoho nevyhodí, dokud nekliknete na zelenou fajku.
+        <Away>Nepřítomen</Away>
+        <FireHover>Nikoho nevyhodíte, dokud nekliknete na zelenou fajfku.
         
 Drž Shift pro vyhození 5 zaměstnanců najednou!
 Drž Ctrl pro vyhození 10 zaměstnanců najednou!</FireHover>
-        <HireHover>Tohle nikoho nepřijme, dokud nekliknete na zelenou fajku.
+        <HireHover>Nikoho nepřijmete, dokud nekliknete na zelenou fajku.
         
 Drž Shift pro přijmutí 5 zaměstnanců najednou!
 Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
@@ -1813,7 +2055,7 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <ConfirmHire>Chystáš se přijmout {0} pracovníků!</ConfirmHire>
         <ConfirmHireSingleGrammar>Chystáš se přijmout pracovníka!</ConfirmHireSingleGrammar>
         <Workforce>Počet zaměstnanců</Workforce>
-        <ScheduleWorkforce>Nyní najatí zaměstnanci/Maximální počet potřebných zaměstnanců</ScheduleWorkforce>
+        <ScheduleWorkforce>Nyní najatí zaměstnanci/Počet potřebných zaměstnanců</ScheduleWorkforce>
         <DailyOverheadHeading>Denní výdaje na zaměstnance</DailyOverheadHeading>
         <OverheadTotal>Dohromady za všechny zaměstnance</OverheadTotal>
         <ScheduledStaff>Tito zaměstnanci mohou být přiřazeni na směnu!</ScheduledStaff>
@@ -1823,6 +2065,11 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <Back>Vrátit se zpátky</Back>
         <Continue>Pokračovat</Continue>
         <Max>Maximum:</Max>
+        <AutoHire>Automatický najímač/propouštěč</AutoHire>
+        <AutoTooltipHead>Automaticky příjmá a propouští zaměstnance</AutoTooltipHead>
+        <AutoTooltipBody>Když přidělíte práci více zaměstnancům než máte, nebo budete mít méně pracovních míst než máte zaměstnanců. Tento stroj automaticky příjmá/propouští zaměstnance.
+        
+Stroj má 6 sekundové zpoždění než provede změny, takže vám nebude zbytečně utrácet peníze, pokud omylem změníte počet zaměstnanců v editoru směn.</AutoTooltipBody>
     </NewStaffHub>
     <NewKitchens>
         <Overview>Přehled kuchyně</Overview>
@@ -1830,14 +2077,14 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <ClickDetails>Klikni pro detaily o kuchyni!</ClickDetails>
         <NeedDisplay>Chlaďák NEBO Ohřívač NEBO Kuchyňský automat na nápoje NEBO Kávovar</NeedDisplay>
         <MealsAvailable>Může vařit!</MealsAvailable>
-        <MealsServed>Může obsloužit!</MealsServed>
-        <KitchenProblem>PROBLÉMY V KUCHYŇI!</KitchenProblem>
+        <MealsServed>Dostupné!</MealsServed>
+        <KitchenProblem>PROBLÉMY V KUCHYNI!</KitchenProblem>
         <Storage>Žádný sklad.</Storage>
         <Appliances>Chybí spotřebiče na vaření.</Appliances>
         <Inventory>Čekání na dodání.</Inventory>
-        <Pots>Talíře potřebujou umít:</Pots>
-        <Preps>Alespoň 3 Stoly na přípravu jídel jsou doporučené pro správnou efektivitu!</Preps>
-        <Plates>Alespoň 2 Ohřívače jídla jsou doporučené pro správnou efektivitu!</Plates>
+        <Pots>Talíře potřebující umýt:</Pots>
+        <Preps>Doporučujeme mít alespoň 3 Stoly na přípravu jídel!</Preps>
+        <Plates>Doporučujeme mít alespoň 2 Ohřívače jídla!</Plates>
         <KioskNoKitchen>Aby mohli být objednávky splněny, musí být přiřazena funkční kuchyň!</KioskNoKitchen>
         <KioskAssigned>Aktuálně pracující zaměstnanci</KioskAssigned>
         <KioskHired>Maximální počet zaměstnanců ve špičce</KioskHired>
@@ -1854,6 +2101,10 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <FoodWarning>Nemáte žádné potraviny, jídla nelze připravovat.</FoodWarning>
         <StockTip>Zásobování probíhá standartně po půlnoci.</StockTip>
         <CafeChairs>Je zapotřebí jakákoli židle</CafeChairs>
+        <MoneyDay1>Dnešní příjmy</MoneyDay1>
+        <MoneyDay2>Včerejší příjmy</MoneyDay2>
+        <WagesToday>Dnešní mzdy zde</WagesToday>
+        <WagesYesterday>Včerejší mzdy zde</WagesYesterday>
     </NewKitchens>
     <NewStores>
         <GoodsWarning>Nemáte žádné produkty na skladě!</GoodsWarning>
@@ -1864,4 +2115,533 @@ Drž Ctrl pro přijmutí 10 zaměstnanců najednou!</HireHover>
         <Profit>Zisk:</Profit>
     </NewStores>
     <WelcomeTo>VÍTEJTE U HRY</WelcomeTo>
+    <ScenarioEditor>
+        <Title>Editor scénářů</Title>
+        <Setup>Nastavení scénáře</Setup>
+        <Objectives>Úkoly</Objectives>
+        <LoseConditions>Špatné okolnosti</LoseConditions>
+        <Name>Název scénáře</Name>
+        <Description>Popis</Description>
+        <StartCash>Počáteční peníze</StartCash>
+        <WonCash>Odměna za dokončení úkolu</WonCash>
+        <ReportFine>Pokuta za špatnou okolnost</ReportFine>
+        <Add>Vytvořit úkol</Add>
+        <AddLose>Vytvořit španou okolnost</AddLose>
+        <Target>Cíl</Target>
+        <Hold>Splnit do</Hold>
+        <Hours>Hodin</Hours>
+        <Loans>Umožnit půjčky</Loans>
+        <LoanWarning>Půjčky nejsou v tomto scénáři povolené.</LoanWarning>
+        <RunwayWarning>V tomto scénáři neplatí letecké společnosti žádný poplatek za využití ranveje.</RunwayWarning>
+        <TerminalWarning>V tomto scénáři neplatí letecké společnosti žádný poplatek za využití terminálu.</TerminalWarning>
+        <Runways>Povolit poplatky za využití ranveje</Runways>
+        <Terminals>Povolit poplatky za využití terminálu</Terminals>
+        <Completion>Splněno {0} / {1} úkolů</Completion>
+        <ObjectivesTitle>Úkoly</ObjectivesTitle>
+        <Reward>Odměna</Reward>
+        <Outcome>Výsledek</Outcome>
+        <RewardReceived>(již vyzvednuta!)</RewardReceived>
+        <Value>Hodnota</Value>
+        <GameOver>Konec hry</GameOver>
+        <FailedScenario>Nepodařilo se vám dokončit scénář.</FailedScenario>
+        <WonScenario>Úspěšně jste dokončili tento scénář!</WonScenario>
+        <Bankrupt>Už dva dny jste v platební neschopnosti a vaše letiště bylo kvůli nedostaku financí uzavřeno.</Bankrupt>
+        <SelectScenario>Vyberte uloženou hru, kterou budete hrát jako scénář. Je třeba, aby hra byla nejprve upravena v editoru scénářů, aby v ní byl jakýkoli obsah. Nebo se podívejte do Steam workshopu a hledejte hry označené jako scénář!</SelectScenario>
+        <Load>Load</Load>
+        <UploadAirport>Nahrát letiště</UploadAirport>
+        <UploadScenario>Nahrát scénář</UploadScenario>
+        <PublishAirport>Publikovat letiště</PublishAirport>
+        <PublishScenario>Publikovat scénář</PublishScenario>
+        <SandboxWarning>Toto je v současné době neomezená hra a bude automaticky změněna na omezenou hru.</SandboxWarning>
+        <SelectMap>Načíst v editoru scénářů</SelectMap>
+        <Continue>Pokračovat</Continue>
+        <Won>Scénář dokončen!</Won>
+        <Unlockables>Odemknuté předměty</Unlockables>
+        <Objects>Objekty</Objects>
+        <Zones>Zóny</Zones>
+        <Unlimited>Neomezeno</Unlimited>
+        <Unlocked>Odemčeno</Unlocked>
+        <Amount>Množství</Amount>
+        <NewMap>Nový rychlý scénář</NewMap>
+        <CreateMap>Vytvořit mapu</CreateMap>
+        <CantSell>Mapu nemůžete prodat dokud nedokončíte scénář.</CantSell>
+        <Locked>Objekt je v tomto scénáři uzamčen! Pravděpodobně jej později odemknete.</Locked>
+    </ScenarioEditor>
+    <AirlineDeals>
+        <Negotiate>Vyjednávání</Negotiate>
+        <Communication>Komunikace</Communication>
+        <SelectRep>Přiřadit zaměstnance</SelectRep>
+        <Reps>Zaměstnanci</Reps>
+        <Priority>Upřednostnit leteckou společnost před výzkumem</Priority>
+        <Research>Výzkum</Research>
+        <Airline>Letecká společnost</Airline>
+        <Daily>Hodin denně</Daily>
+        <CFO>Může zvýšit částku, kterou je letecká společnost ochotna zaplatit při vyjednávání.</CFO>
+        <COO>Provozní ředitel pomáhá vašemu letišti pracovat plynule, každé zařízení tak má na leteckou společnost větší pozitivní vliv.</COO>
+        <CTO>Vzhledem k pokročilým znalostem ředitele technologií bude letecká společnost ochotnější přistoupit k vašim navrhovaným nabídkám.</CTO>
+        <Foreman>Dokáže snížit náklady za účelem vyjednání velkých a extra velkých letů.</Foreman>
+        <FinanceVP>Může zvýšit částku, kterou je letecká společnost ochotna zaplatit při vyjednávání. Stejně jako finanční ředitel ale o něco méně efektivně.</FinanceVP>
+        <AirlineRep>Při vyjednávání nemá žádný bonus.</AirlineRep>
+        <Assign>Přiřadit</Assign>
+        <CannotAssign>Maximum dosaženo</CannotAssign>
+        <Unassign>Zrušit</Unassign>
+        <Assigned>Přiřazen</Assigned>
+        <Unassigned>Nepřiřazen</Unassigned>
+        <Advice>Jakmile najmeš obchodní zástupce a ředitele, objeví se zde.</Advice>
+        <Capacity>Kapacita</Capacity>
+        <Negotiations>Vyjednávání</Negotiations>
+        <Wants>Požaduje</Wants>
+        <Offer>Nabízíš</Offer>
+        <SmallPlanes>Malé letadla</SmallPlanes>
+        <LargePlanes>Velké letadla</LargePlanes>
+        <XLPlanes>Extra velké letadla</XLPlanes>
+        <RepWarning1>Přiřaď obchodního zástupce s funkční kanceláří této letecké společnosti pro vyjednání nové dohody. Letecká společnost také musí být spokojená alespoň na 40%.</RepWarning1>
+        <RepWarning2>Přiřaď obchodního zástupce s funkční kanceláří k této letecké společnosti, aby jsi mohl vidět její potřeby.</RepWarning2>
+        <Available>Dostupné letadla</Available>
+        <AvailableLimit>Vyberte až 4.</AvailableLimit>
+        <Tutorial1>Vyberte počet letadel, o kterých chcete vyjednávat a nastavte časový blok ve kterém je chcete odbavit, také se ujistěte, že vaše letiště má dostatek prostoru a vybavení pro odbavení těchto letadel . Poté kontaktujte leteckou společnost a začněte vyjednávat.
+        
+Čím více je letecká společnost spokojena s vašimi službami, tím více letů vám nabídne a o to méně požadavků bude mít.</Tutorial1>
+        <Tutorial2>Využijte atmosféru, abyste zjistili, jak pozitivně nebo negativně reaguje letecká společnost na vaše změny. Pomocí textových polí změnte nabídky nebo použijte posuvníky.
+
+Až jeden požadavek můžete odmítnout. To vám však může zabránit získat tu nejlepší možnou nabídku.
+
+Nezapomeňte si ve smlouvě přečíst sekci o nedodržení smlouvy, a podívat se na vaši aktuální smlouvu, kterou  máte s touto leteckou společností.</Tutorial2>
+        <Intro>Rozšiřte své smlouvy s leteckými společnostmi tím, že nabídnete další zařízení výměnou za vyšší poplatky. Můžete také požádat o další letadla.</Intro>
+        <TimePreferences>Preferovaný čas</TimePreferences>
+        <TimeSlots>Vyberte časový úsek, ve kterém mají být lety odbaveny.
+Každá letecká společnost má své preference, takže čím vyšší procentuální skóre, tím méně vás to bude stát!
+        </TimeSlots>
+        <LowInterest>Od posledního jednání jsme zjistili, že dohoda již pro nás není výhodná. Musíme znovu vyjednávat, jinak bude smlouva ukončena.</LowInterest>
+        <Terminate>Vypověděť</Terminate>
+        <CannotRenegotiate>Od posledního jednání jsme zjistili, že smlouva již pro nás není výhodná. V současné době není naším zájmem smlouvu znovu obnovit, takže dříve platná smlouva bude vypovězena.</CannotRenegotiate>
+        <Feedback>Tato letecká společnost je příliš malá, aby s vámi mohla právě teď vyjednávat, nebo má příliš nízký zájem. Letecká společnost může nabídnout až {0} letadel a její zájem je {1}.
+        
+Zažádáním o více letadel můžete tuto leteckou společnost přimět k vyjednání s vámi.</Feedback>
+        <Help>Pomoc</Help>
+        <Call>Kontaktovat</Call>
+        <Atmosphere>Aktuální atmosféra</Atmosphere>
+        <Cold>Otřesná</Cold>
+        <Cool>Špatná</Cool>
+        <AirlineExclusivity>Přiřaďte exkluzivitu letecké společnosti</AirlineExclusivity>
+        <AirlineMatchScheduler>Let této letecké společnosti musí být odbaven u její brány.</AirlineMatchScheduler>
+        <Warm>Dobrá</Warm>
+        <Good>Skvělá</Good>
+        <Hot>Vynikající</Hot>
+        <HoverZoneSubHeading>Může být vlastněno leteckou společností!</HoverZoneSubHeading>
+        <HoverZoneBody>Kliknutím přidělíte výhradní práva letecké společnosti.</HoverZoneBody>
+        <Accepted>Přijato</Accepted>
+        <Rejected>Odmítnuto</Rejected>
+        <Negotiable>Obchodovatelné</Negotiable>
+        <NonNegotiable>Neobchodovatelné</NonNegotiable>
+        <YourOffer>Tvoje nabídka</YourOffer>
+        <NextRound>Další kolo</NextRound>
+        <LastRound>Přehled posledního kola</LastRound>
+        <TheirCounter>Jejich odpověď</TheirCounter>
+        <SendOffer>Poslat nabídku</SendOffer>
+        <ConfirmHeading>Ukončit vyjednávání?</ConfirmHeading>
+        <ConfirmBody>Jakékoli změny, které byli vyjednány, budou zrušeny. To vám sníží komunikaci s leteckou společností a také ztratíte malé množství důvěry.</ConfirmBody>
+        <ConfirmWarning>Upozornění: Letecká společnost chce s vámi znovu vyjednávat! Tím dojde ke zrušení vaší stávající smlouvy!</ConfirmWarning>
+        <Waiting>Vaše nabídka byla odeslána letecké společnosti. Rozhodnutí letecké společnosti vám bude doručeno nejpozději následujícího dne.</Waiting>
+        <Decline>Letecká společnost odmítla vaši nabídku.</Decline>
+        <Accept>Letecká společnost přijala vaši nabídku.</Accept>
+        <Counter>Potřebujeme dále vyjednávat o současné dohodě.</Counter>
+        <Negotiated>Vyjednávání</Negotiated>
+        <Terms>Všeobecné obchodní podmínky</Terms>
+        <RepCost>Najmutí obchodního zástupce {0}.</RepCost>
+        <RepCostHeader>Za každého přiřazeného obchodního zástupce zaplatíte {0}.</RepCostHeader>
+        <NoContracts>Tato letecká společnost pro vás aktuálně nemá k dispozici žádné nabídky. Pracujte na získání vyššího zájmu letecké společnosti a ověřte si, že jste s leteckou společností už neuzavřeli všechny dostupné smlouvy.</NoContracts>
+        <DefaultTerms>Smlouva bude zrušena, pokud nově sjednané lety nebudou do 48 hodin zařazeny do hlavního letového plánu; nebo, pokud byla porušena maximální sjednaná spolehlivost; nebo, pokud si letecká společnost přeje znovu vyjednávat, a její požadavek byl zamítnut; a nakonec, pokud by sjednané zařízení nebyly okamžitě vyhrazeny letecké společnosti.
+
+V případě porušení smlouvy vám bude naúčtována pokuta. Kromě toho budou vyjednané poplatky za využití ranveje a terminálu změněny na normální ceny a denní poplatek bude nastaven na nulu.</DefaultTerms>
+        <ProtectedOffice>Tato kancelář určená pro leteckou společnost nesmí být blokována dveřmi pouze pro zaměstnance.</ProtectedOffice>
+        <ProtectedConference>Tato konferenční místnost nesmí být blokována dveřmi pouze pro zaměstnance.</ProtectedConference>
+        <SecureOffice>Tato kancelář určená pro leteckou společnost nesmí být v zabezpečené zóně.</SecureOffice>
+        <AirlineExecutive>Zástupce letecké společnosti</AirlineExecutive>
+        <NoMeeting>K dispozici pro jednání s leteckými společnostmi.</NoMeeting>
+        <MeetingSubHeading>Jednání právě probíhá!</MeetingSubHeading>
+        <MeetingTip>Jakmile přidělíte ředitele nebo obchodní zástupce leteckým společnostem, mohou zde uspořádat schůzky!</MeetingTip>
+        <Hosts>Tvoji obchodní zástupci:</Hosts>
+        <Attendees>Zástupci letecké společnosti:</Attendees>
+        <Duration>Trvání v minutách:</Duration>
+        <Cancelled>Zrušeno</Cancelled>
+        <SettingUp>Příprava</SettingUp>
+        <Discussing>Diskuse</Discussing>
+        <Ended>Ukončeno</Ended>
+        <Break>Přestávka. Bude brzy pokračovat.</Break>
+        <OtherNegotiation>Právě probíhá jiné vyjednávání. Nejdřív ho musíte dokončit.</OtherNegotiation>
+        <Breach>Letecká smlouva porušena.</Breach>
+        <MaxLimit>Max. 3</MaxLimit>
+        <DailyFee>Denní příjem letecké společnosti</DailyFee>
+        <Difference>Rozdíl</Difference>
+        <FirstRound>První kolo</FirstRound>
+        <AdminSubHeading>Používáno ředitelem.</AdminSubHeading>
+        <AirlineSubHeading>Tento ředitel pracuje pro {0}.</AirlineSubHeading>
+        <OfferFacility>Chcete-li tento objekt nabídnout letecké společnosti, musíte nejdřív vyjednávat s leteckou společností. Během vyjednávání můžete získat další příjmy, přidělením exkluzivity určitým leteckým společnostem.</OfferFacility>
+        <History>Historie vyjednávání</History>
+        <Round>Kolo</Round>
+        <Theirs>Nabídka letecké společnosti</Theirs>
+        <Yours>Tvá nabídka</Yours>
+        <Breaches>Nedodržení</Breaches>
+        <CurrentDeal>Aktuální dohoda</CurrentDeal>
+        <BreachTerms>Ukončení smlouvy</BreachTerms>
+        <NotSet>Nenastaveno.</NotSet>
+        <CommercialPricing>Nastaveny normální ceny</CommercialPricing>
+        <RepNumber># obchodních zástupců</RepNumber>
+        <MissingFacilities># chybějící objekty</MissingFacilities>
+        <FacilitiesAssigned># Přidělené vybavení</FacilitiesAssigned>
+        <WasNegotiated>Vyjednaná dohoda?</WasNegotiated>
+        <MissingFacilitiesWarning>Této letecké společnosti chybí některá vyjednaná zařízení!</MissingFacilitiesWarning>
+        <Missed>Chybějící</Missed>
+        <ExcellentDeal>Vyjednávali jste tvrdě a přišli se skvělou nabídkou!</ExcellentDeal>
+        <FairDeal>Výborně. vaše nabídka je férová.</FairDeal>
+        <PoorDeal>Dali jste jim dobrou nabídku! To bylo od vás velkorysé, ale to určitě neznamená, že jste jim nabídli vše co můžete!</PoorDeal>
+        <BadDeal>Vy jste zloději! Ze zasedací místnosti můžete zaslechnout smích zástupců letecké společnosti.</BadDeal>
+        <AssignRepCurrentDeal>Přiřaďte obchodního zástupce s funkční kanceláří této letecké společnosti, abyste mohli začít vyjednát o nové dohodě.</AssignRepCurrentDeal>
+        <FlightCancelHeader>Potvrďte zrušení letu</FlightCancelHeader>
+        <FlightCancelText>Opravdu chcete zrušit {0}?</FlightCancelText>
+        <TerminationFee>Poplatek za zrušení</TerminationFee>
+        <CancelNonScheduled>Tento let byl součástí jednání a nikdy nebyl zařazen do hlavního letového plánu! Tím jste porušili smlouvu a ta bude zrušena.</CancelNonScheduled>
+        <CancelTooShort>Tento let byl součástí jednání a byl přijat pouze v posledních 48 hodinách! Tím jste porušili smlouvu a ta bude zrušena.</CancelTooShort>
+        <FacilitiesTip>Přejděte do nabídky podrobnosti o letecké společnosti a zjistěte, co chybí každé letecké společnosti.</FacilitiesTip>
+        <ExtendedTerms>Pokud Vaše letiště odbavuje méně než {0} letů této letecké společnosti denně, smlouva bude zrušena.</ExtendedTerms>
+        <CancelTooFewFlights>Vaše letiště nesmí odbavit méně než {0} letů této letecké společnosti denně. Smlouva bude zrušena!</CancelTooFewFlights>
+        <MoreInterest>Tato letecká společnost vyžaduje alespoň 40% zájem o vyjednávání s vámi.</MoreInterest>
+        <MoreFlights>Musíte přijmout alespoň {0} letů od této letecké společnosti, pokud s ní chcete vyjednávat.</MoreFlights>
+        <MoreDays>Vaše letiště musí být otevřeno alespoň {0} dní.</MoreDays>
+        <RepOffice>Musíte mít přiděleného obchodního zástupce s funkčním kanceláří, poté budete moci vyjednávat.</RepOffice>
+        <RepsCost>Mzdy obchodních zástupců leteckých společností</RepsCost>
+        <OfferedFlights>Nabízené lety</OfferedFlights>
+        <BusinessPopulation>Zástupci letecké společnosti</BusinessPopulation>
+        <PriorityTooltipHead>Priority ředitele</PriorityTooltipHead>
+        <PriorityTooltip>Pomocí tohoto pruhu nastavíte, jak často bude ředitel trávit čas výzkumem v porovnání se zlepšením komunikační potřeby letecké společnosti. Pokud dokončí všechny své výzkumy, bude se automaticky 100% věnovat letecké společnosti.</PriorityTooltip>
+        <BonusTooltipHead>Schopnost vyjednávání bonusů</BonusTooltipHead>
+        <Sure>Jste si jistý?</Sure>
+        <ImmediateCharge>Pokud přijmete, okamžitě zaplatíte poplatky.</ImmediateCharge>
+        <TutorialDays>TUTORIÁL: Normálně musí vaše letiště fungovat alespoň 12 dní než budete moci zahájit vyjednávání.</TutorialDays>
+        <Filter>Filtry</Filter>
+        <RepWages>Denní mzda obchodních zástupců</RepWages>
+        <Target>Cíl</Target>
+        <NotApplicable>Toto již nesplňuje požadavky.</NotApplicable>
+        <MaxFlights>Nelze vyjednávat o více než 4 letech najednou.</MaxFlights>
+        <CannotMod>Módy - scénáře a tutoriály</CannotMod>
+        <CannotModText>Nelze importovat další letecké společnosti, dokud nedokončíte scénář nebo dokud nedokončíte tutoriál.</CannotModText>
+        <AnotherNegotiationV2>Právě probíhá jiné vyjednávání s {0}. Nejdříve dokončete všechny své jednání.</AnotherNegotiationV2>
+        <AcceptAll>Chystáte se přijmout všechny nabízené lety od této letecké společnosti!</AcceptAll>
+        <ConferenceTable>Vyžaduje alespoň jeden konferenční stůl.</ConferenceTable>
+    </AirlineDeals>
+    <AirlineOffers>
+        <Gates>Přiřazené brány budou moci používat pouze letadla této letecké společnosti.</Gates>
+        <ClassLounges>Tato letecká společnost vyžaduje exkluzivitu pro některého z vašich salonků. Ten budou moci používat pouze jejich cestující.</ClassLounges>
+        <CrewLounges>Tato letecká společnost vyžaduje exkluzivitu pro některý z vašich salonků. Ten budou moci používat pouze jejich posádky letadel.</CrewLounges>
+        <Offices>Tato letecká společnost by pro sebe chtěla nějaké kancelářské prostory. Letecká společnost bude posílat své vlastní pracovníky, kteří je budou používat.</Offices>
+        <Ticketing>Tato letecká společnost vyžaduje exkluzivitu pro některou z vašich odbavovacích zón. Tu budou moci používat pouze jejich cestující.</Ticketing>
+        <Penalty>Pokud dojde k nedodržení smlouvy, tuto pokutu budete muset zaplatit.
+        
+Klikněte na záložku nedodržení a přečtěte si, jak lze smlouvu porušit.</Penalty>
+        <RunwayFee>Toto je částka, kterou je letecká společnost ochotna zaplatit za každé své letadlo, které přistane.
+            
+Pokud dojde k nedodržení smlouvy, bude tato hodnota obnovena na úroveň normální ceny.</RunwayFee>
+        <NegotiatedReliability>Letecká společnost očekává, že vaše skóre spolehlivosti zůstane pod touto hranicí,  jinak smlouva bude zrušena. 
+            
+Spolehlivost zahrnuje zpoždění letu, zrušení letu a počet cestujících kteří svůj let nestihli.</NegotiatedReliability>
+        <TerminalFee>Toto je částka, kterou je letecká společnost ochotna zaplatit za každého svého cestujícího, který projde vašim letištěm.
+Pokud dojde k nedodržení smlouvy, bude tato hodnota obnovena na úroveň normální ceny.</TerminalFee>
+        <DailyFee>Obvykle se jedná o doplněk k poplatkům za využití ranveje a letiště, který slouží k pokrytí nákladů na ředitele a zařízení. Velké letecké společnosti s mnoha letadly však raději zaplatí pevně stanovenou denní sazbu než sazbu za každé letadlo zvlášť, takže můžete vidět velmi vysoké denní sazby bez poplatků za ranvej nebo terminál.</DailyFee>
+        <NegotiatedReliability2>Tato letecká společnost vyžaduje spolehlivost, čím vyšší potřeba je tím je to horší.</NegotiatedReliability2>
+        <ConferenceRooms>Exkluzivní konferenční místnost poskytuje letecké společnosti každodenní přístup na schůzky.</ConferenceRooms>
+        <Cafes>Exkluzivní kavárna/restaurce pouze pro cestující této letecké společnosti. Exkluzivní obchod pouze pro cestující této letecké společnosti. Letecká společnost získá také část zisků z této kavárny/restaurace.</Cafes>
+        <Stores>Exkluzivní obchod pouze pro cestující této letecké společnosti. Letecká společnost získá také část zisků z tohoto obchodu.</Stores>
+        <CafeProfitShare>Zisky, které letecká společnost získá z kaváren/resturací, které jim byly přiděleny. Musíte jim nabídnout alespoň jednu kavárnu/restauraci, aby tato nabídka ovlivnila atmosféru.</CafeProfitShare>
+        <StoreProfitShare>Zisky, které letecká společnost získá z obchodů, které jim byly přiděleny. Musíte jim nabídnout alespoň jeden obchod, aby tato nabídka měla vliv na atmosféru.</StoreProfitShare>
+        <NegotiatedFuelSatisfaction>Toto bude uspokojeno dobrými cenami paliva a jen velmi malým počtem selháním při plnění požadavků.</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Toto je minimální procento kapacity letadla, které bude muset být leteckou společností obsazeno .</MinPaxFlight>
+    </AirlineOffers>
+    <AirlineNeedDescriptions>
+        <Communication>Najměte obchodní zástupce, kteří budou komunikovat prostřednictvím e-mailu s leteckými společnostmi z jejich kanceláří. E-mail má omezený vliv na skóre. Chcete-li ho dále zvýšit, postavte konferenční místnosti pro osobní schůzky.</Communication>
+        <PaxSatisfaction>Letecké společnosti nechtějí, aby byl špatný pohled na ně spojován s nešťastnými cestujícími. Ty bys neměl být ty!</PaxSatisfaction>
+        <Fees>Dopad, který mají poplatky za využití ranveje a terminálu na spokojenost této letecké společnosti.</Fees>
+        <Reliability>Tohle se týká toho, kolik cestujících nestihlo svůj let, kolik letů bylo zpožděno a kolik jich bylo zrušeno!</Reliability>
+        <Trust>Budete si muset časem získat důvěru této letecké společnosti.
+        
+Kdykoli porušíte vyjednanou dohodu, zrušíte let nebo máte vaše komunikace bude špatná, ztratíte důvěru letecké společnosti.</Trust>
+        <Facilities>Pokud jste letecké společnosti přislíbil nějaké zařízení a to jim NENÍ poskytnuto, určitě se to projeví na důvěře. Pokud dosáhnete 0%, vaše aktuální smlouva bude okamžitě ukončena.</Facilities>
+        <FuelSatisfaction>Toto se týká toho, jak vysoké/nízké jsou ceny paliva a kolikrát jste neuspěl při doplňování paliva.</FuelSatisfaction>
+        <FacilityQuality>Každá vyjednaná zóna má své bodové hodnocení, což odráží, jak spokojená je letecká společnost s touto místností.</FacilityQuality>
+    </AirlineNeedDescriptions>
+    <AirlineNeeds>
+        <Needs>Potřeby letecké společnosti</Needs>
+        <Communication>Komunikace</Communication>
+        <FuelFailures>Nedostatek paliva</FuelFailures>
+        <FuelPrice>Cena paliva</FuelPrice>
+        <LargeGate>Velké brány</LargeGate>
+        <ClassLounges>Salónky první třídy</ClassLounges>
+        <CrewLounges>Salonky pro letovou posádku</CrewLounges>
+        <Ticketing>Zóna odbavení</Ticketing>
+        <Offices>Kanceláře</Offices>
+        <PaxSatisfaction>Spokojenost cestujících</PaxSatisfaction>
+        <RunwayFee>Poplatky za využití ranveje</RunwayFee>
+        <TerminalFee>Poplatky za využití terminálu</TerminalFee>
+        <DailyFee>Denní poplatky</DailyFee>
+        <Fees>Normální poplatky</Fees>
+        <Satisfaction>Spokojenost leteckých společností</Satisfaction>
+        <Reliability>Servisní spolehlivost</Reliability>
+        <NegotiatedReliability>Spolehlivost služeb</NegotiatedReliability>
+        <SmallGate>Malé brány</SmallGate>
+        <XLGate>Extra velké brány</XLGate>
+        <Trust>Důvěra</Trust>
+        <Facilities>Sjednané zařízení</Facilities>
+        <Penalty>Pokuta za porušení smlouvy</Penalty>
+        <FacilityQuality>Kvalita zařízení</FacilityQuality>
+        <Cafes>Restaurace</Cafes>
+        <Stores>Obchody</Stores>
+        <ConferenceRooms>Konferenční místnosti</ConferenceRooms>
+        <FuelSatisfaction>Spokojenost s palivem</FuelSatisfaction>
+        <NegotiatedFuelSatisfaction>Vyjednaná spokojenost s palivem</NegotiatedFuelSatisfaction>
+        <MinPaxFlight>Minimální vytížení letůt</MinPaxFlight>
+        <CafeProfitShare>Podíl ze zisku restaurací</CafeProfitShare>
+        <StoreProfitShare>Podíl ze zisku obchodů</StoreProfitShare>
+    </AirlineNeeds>
+    <Breaches>
+        <Title>Porušení smlouvy</Title>
+        <FacilitiesLacking>Sjednané zařízení jste nepřidělili včas.</FacilitiesLacking>
+        <TooFewFlights>S touto leteckou společností jste měli příliš málo letů na pokračování smlouvy.</TooFewFlights>
+        <PlayerTerminated>Ukončili jste smlouvu.</PlayerTerminated>
+        <SetGate />
+        <NeverScheduled>Nezařadili jste některé z vyjednaných letů do hlavního letového plánu.</NeverScheduled>
+        <CancelledShortly>Zrušili jste sjednaný let krátce po jeho nabídnutí.</CancelledShortly>
+        <QuitNegotiations>Ukončili jste nezbytná jednání s leteckou společností.</QuitNegotiations>
+        <FacilitiesFail>Nepřidělil jste letecké společnosti včas vyjednané zařízení.</FacilitiesFail>
+        <FuelFail>Nesplnili jste očekávanou úroveň spokojenosti s palivem.</FuelFail>
+        <ReliabilityFail>Nesplnili jste očekávanou úroveň spolehlivosti.</ReliabilityFail>
+        <ReliabilityWarning>Varování, podmínky smlouvy nebyly splněny! Máte 12 hodin na nápravu!</ReliabilityWarning>
+        <FuelWarning>Varování, spokojenost letecké společnosti s palivem je horší než sjednaný cíl! Máte 12 hodin na nápravu!</FuelWarning>
+    </Breaches>
+    <AdminAbilities>
+        <CFO>Finanční ředitel upraví údaje tak, aby letecká společnost přijmula dohodu, která je pro ni trochu nevýhodná. Nikomu to ale neříkejte!</CFO>
+        <COO>Každé zařízení přidané do vyjednávání bude cennější, což znamená, že si můžete účtovat vyšší ceny!</COO>
+        <CTO>Když některé letecké společnosti požádají o změnu smlouvy, budou se snažit vzít v úvahu to, co si myslí, že je pro vás důležité na základě vašeho aktuálního letiště. Ředitel technologií poskytne leteckým společnostem další podrobnosti, takže si své požadavky mohou lépe promyslet. Pokud byste například měli 3 nevyužité kanceláře, bylo by mnohem pravděpodobnější, že požádají právě o ně.</CTO>
+        <Foreman>Pro letecké společnosti je nákladnější žádat o nové lety v jednáních než čekat, až vám nabídnou nové lety. Tím se sníží, jak velká a extra velká letadla ovlivní jejich požadavky.</Foreman>
+        <FinanceVP>Funguje stejně jako finanční ředitel, ale o něco méně efektivně, upravuje údaje tak, aby letecké společnosti přijmuli i dohodu, která je pro ně trochu nevýhodná. Nikomu to ale neříkejte!</FinanceVP>
+        <AirlineRep>Nemá žádné možnosti při vyjednávání bonusů, ale přesto může během dne zlepšit komunikaci s leteckou společností a automaticky pořádat schůzky v konferenční místnosti jako ostatní ředitelé.</AirlineRep>
+    </AdminAbilities>
+    <AirlineFeedback>
+        <General>Tato letecká společnost s vámi nechce vyjednávat.</General>
+        <LargeFlights>Vybrali jste velké lety. Snížení jejich počtu může leteckému dopravci usnadnit vyřízení vaší žádosti.</LargeFlights>
+        <Foreman>Najmutí a přidělení Stavebního ředitele této letecké společnosti jim pomůže nabídnout vám větší lety za nižší cenu.</Foreman>
+    </AirlineFeedback>
+    <RoomValues>
+        <Calculation>Hodnocení zóny</Calculation>
+        <Size>Velikost v buňkách</Size>
+        <IdealSize>Buňky</IdealSize>
+        <Openness>Otevřený prostor</Openness>
+        <Density>Volné buňky</Density>
+        <Environment>Životní prostředí</Environment>
+        <View>Výhled z okna</View>
+        <Floor>Podlaha</Floor>
+        <Access>Snadnost přístupu</Access>
+        <Score>Celkové skóre</Score>
+        <HoverZoneBody>Kliknutím přidělíte výhradní práva letecké společnosti a zobrazíte hodnocení místnosti.</HoverZoneBody>
+        <Security>Z bezpečností zóny</Security>
+        <Reception>Z recepce</Reception>
+        <Requirements>Požadavky nejsou splněny!</Requirements>
+    </RoomValues>
+    <Grants2019>
+        <Heading>Vládní dotace</Heading>
+        <BasicAirport>Základní letiště</BasicAirport>
+        <AirportOperations>Provoz letiště</AirportOperations>
+        <PassengerExperience>Spokojenost cestujících</PassengerExperience>
+        <AirlineSatisfaction>Spokojenost leteckých společností</AirlineSatisfaction>
+        <Interface>
+            <Progress>Dokončené části</Progress>
+            <Track>Část</Track>
+            <AcceptGrant>Přijatá vládní dotace</AcceptGrant>
+            <CompleteGrant>Dokončená vládní dotace</CompleteGrant>
+            <Done>HOTOVO</Done>
+            <Tier>Část</Tier>
+            <Locked>Uzamčeno</Locked>
+            <Accept>Odemčeno! Klikněte pro přijmutí.</Accept>
+            <Upfront>Dotace předem</Upfront>
+            <CompleteTier>Musíte dokončit předchozí části.</CompleteTier>
+            <UnlockNext>Odemkne další část této části.</UnlockNext>
+            <CompleteBasic>Chcete-li toto odemknout, musíte dokončit dotaci na základní letiště.</CompleteBasic>
+            <TooMany>Současně nelze přijmout více než dvě dotace.</TooMany>
+            <Reward>Konečná odměna</Reward>
+            <Boosted>Prodeje podpořeny dotací!</Boosted>
+            <Range>Odhad návratnosti</Range>
+            <NoReward>Nic k odemčení</NoReward>
+            <Earned>Návratnost investic</Earned>
+        </Interface>
+        <Grants>
+            <BAT1>
+                <Description>Stavba letiště</Description>
+                <Objective1>Postavte funkční odbavovací a bezpečnostní zónu.</Objective1>
+                <Objective2>Postavte funkční bránu a ranvej.</Objective2>
+                <Objective3>Postavte funkční zónu výdeje zavazadel.</Objective3>
+            </BAT1>
+            <BAT2>
+                <Description>Funkční terminál</Description>
+                <Objective1>Provozujte letiště 2 dny.</Objective1>
+                <Objective2>Postavte 2 samoobslužné přepážky pro odbavení a 3 normální nebo XL informační letové displeje.</Objective2>
+                <Objective3>Zařaďte do hlavního letového plánu alespoň 5 letů.</Objective3>
+            </BAT2>
+            <PAX1>
+                <Description>Hygienické požadavky</Description>
+                <Objective1>Najmi alespoň 2 uklízeče</Objective1>
+                <Objective2>Postav 10 odpadkových košů</Objective2>
+                <Objective3>Dosáhni průměrné spokojenosti s životním prostředím alespoň na 60%.</Objective3>
+            </PAX1>
+            <PAX2>
+                <Description>Uspokojení hladu</Description>
+                <Objective1>Postavte funkční kuchyň a kavárnu/restauraci.</Objective1>
+                <Objective2>Dosáhni průměrné spokojenosti cestujících alespoň 75%.</Objective2>
+            </PAX2>
+            <PAX3>
+                <Description>Past na turisty</Description>
+                <Objective1>Postavte 5 obchodů</Objective1>
+                <Objective2>Postavte 2 salónky pro první třídu. </Objective2>
+                <Objective3>Dosáhni průměrné spokojenosti s životním prostředím alespoň na 80%.</Objective3>
+            </PAX3>
+            <AIR1>
+                <Description>Základní potřeby leteckých společností</Description>
+                <Objective1>Přiřaďte alespoň 1 obchodního zástupce třem leteckým společnostem.</Objective1>
+                <Objective2>Zařaďte do hlavního letového plánu alespoň 12 letů.</Objective2>
+                <Objective3>Postavte ranvej s odolností proti síle větru alespoň 15 uzlů.</Objective3>
+            </AIR1>
+            <AIR2>
+                <Description>Operace velkého rozsahu</Description>
+                <Objective1>Odbavte 10 letadel s funkčním venkovním zavazadlovým systémem.</Objective1>
+                <Objective2>Postavte 2 velké nebo extra velké letištní brány.</Objective2>
+                <Objective3>Dosáhni zájmu leteckých společností 70%.</Objective3>
+            </AIR2>
+            <AIR3>
+                <Description>Letecká zařízení</Description>
+                <Objective1>Odbavte 10 letadel s funkčním palivovým sytémem.</Objective1>
+                <Objective2>Vyjednejte a přidělte 20 kanceláří leteckým společnostem.</Objective2>
+            </AIR3>
+            <INV1>
+                <Description>Úvod do investování</Description>
+                <Objective1>Půjčte si peníze na financování stavby.</Objective1>
+                <Objective2>Postavte kancelář a přijměte finančního ředitele.</Objective2>
+                <Objective3>Splaťte jakoukoli půjčku.</Objective3>
+                <Objective4>Vyzkoumejte "Finance".</Objective4>
+            </INV1>
+            <INV2>
+                <Description>Krátkodobá investice</Description>
+                <Objective1>Počkejte {0} dní.</Objective1>
+            </INV2>
+            <INV3>
+                <Description>Dlouhodobá investice</Description>
+            </INV3>
+            <INV4>
+                <Description>Riziková investice</Description>
+                <Objective1>Provozuj toto letiště alespoň {0} dnů.</Objective1>
+            </INV4>
+            <INV5>
+                <Description>Andělský investor</Description>
+            </INV5>
+            <EFF1>
+                <Description>Žádní ztracení cestující</Description>
+                <Objective1>Vyzkoumej "Technologie" a přijměte ředitele technologií.</Objective1>
+                <Objective2>Vytvořte zónu elektronika a umístěte do ní ovladač rozhlasu.</Objective2>
+                <Objective3>Postavte 8 reproduktorů rozhlasu.</Objective3>
+            </EFF1>
+            <EFF2>
+                <Description>Žádné zpoždění</Description>
+                <Objective1>Mějte alespoň 2 ranveje s odolností proti síle větru 20 uzlů.</Objective1>
+                <Objective2>Vyzkoumejte vylepšení autobusů.</Objective2>
+            </EFF2>
+            <EFF3>
+                <Description>Maximální vytížení</Description>
+                <Objective1>Mějte na letišti alespoň 600 cestujících najednou.</Objective1>
+                <Objective2>Mějte alespoň 20 členů ochranky a 12 členů personálu najednou.</Objective2>
+            </EFF3>
+            <MP1>
+                <Description>Základní finance</Description>
+                <Objective1>Vyzkoumejte a přijměte finančního ředitele pro zobrazení obrazovky zisku.</Objective1>
+                <Objective2>Mějte zisk na konci dne, s výjimkou příjmů z dotací.</Objective2>
+            </MP1>
+            <MP2>
+                <Description>Dobrý tým</Description>
+                <Objective1>Přijměte vice prezidenta financí</Objective1>
+                <Objective2>Vyzkoumejte nižší daň z příjmů I</Objective2>
+                <Objective3>Splaťte jakoukoli půjčku.</Objective3>
+            </MP2>
+            <MP3>
+                <Description>Zisk ze zařízení</Description>
+                <Objective1>Vydělejte $600 z reklamy za den.</Objective1>
+                <Objective2>Vydělejte $2000 z obchodů/automatů/stánků za den.</Objective2>
+                <Objective3>Vyzkoumejte nižší daň z příjmů II.</Objective3>
+            </MP3>
+            <MP4>
+                <Description>Velká marže</Description>
+                <Objective1>Mějte čistý zisk alespoň $50,000 na konci celého dne, kromě příjmů z dotací.</Objective1>
+            </MP4>
+        </Grants>
+        <Tracks>
+            <BasicAirport>Základní letiště</BasicAirport>
+            <BasicAirportDescription>Tato první část dotací se zaměřím na přeměnu tohoto prázdného pozemku na základní, fungující letiště.</BasicAirportDescription>
+            <BasicAirportNotBlankSlate>Tato část je již dokončena, protože letiště bylo předem postaveno.</BasicAirportNotBlankSlate>
+            <BasicAirportReward>Odemkne řídící věž a další části dotací.</BasicAirportReward>
+            <PAX>Spokojenost cestujících</PAX>
+            <PAXDescription>Toto letiště si musí umět udělat spokojené turisty. Ubohý zážitek by jistě odradil potenciální nové turisty do tohoto regionu.</PAXDescription>
+            <PAXReward>Zvýší šanci na nákup drahých položek v obchodech!</PAXReward>
+            <AIR>Spokojenost leteckých společností</AIR>
+            <AIRDescription>Úspěšné letiště musí mít dobré vztahy s leteckými společnostmi. Tím pádem mohou být účtovány vyšší ceny a vám to přinese větší výdělek.</AIRDescription>
+            <AIRReward>Tato část zpřístupní lety v brzkých ranních hodinách!</AIRReward>
+            <Investments>Investice</Investments>
+            <InvestmentsDescription>Ukažte hodnotu letiště komunitě investováním do těchto malých, místních podniků. Začínají z mála, ale potom začnou růst a riskovat. Váš kapitál je v ohrožení.</InvestmentsDescription>
+            <EFF>Účinnost letiště</EFF>
+            <EFFDescription>Důležité mít efektivní letiště. Toto je regionální brána do světové ekonomiky. Místní cestovní ruch a růst podniků nesmí brzdit neefektivní projekty.</EFFDescription>
+            <MP>Maximalizace zisků</MP>
+            <MPDescription>Tato vláda si nemůže dovolit zavřít toto letiště. Musí zajistit zdravý a rostoucí zisk, a potěšit tak daňové poplatníky.</MPDescription>
+        </Tracks>
+        <UnlockTooltip>Tento objekt je skryt v dotaci!</UnlockTooltip>
+    </Grants2019>
+    <PaxContexts>
+        <SecurityProgress>Probíhá bezpečnostní kontrola.</SecurityProgress>
+        <DidSecurity>Zabezpečen.</DidSecurity>
+        <NotSecurity>Nezabezpečen.</NotSecurity>
+        <BagNA>N/A</BagNA>
+        <NoBag>Žádné zavazadlo ke kontrole.</NoBag>
+        <CarryBag>Má zkontrolovanou tašku a nese ji.</CarryBag>
+        <NotCarryBag>Má zkontrolovanou tašku a nenese ji.</NotCarryBag>
+        <Persue>na cestě do/k</Persue>
+        <Idle>Zahálení</Idle>
+    </PaxContexts>
+    <Patrols>
+        <JanitorPatrols>Trasy uklízečů</JanitorPatrols>
+        <DefaultName>Nová trasa</DefaultName>
+        <Floor>Podlaží</Floor>
+        <Radius>Dosah</Radius>
+        <Edit>Upravit pozice</Edit>
+        <Remove>Odstranit bod</Remove>
+        <AddAdvice>Začněte přidávat trasy tlačítkem plus!</AddAdvice>
+        <VectorAdvice>Kliknutím na mapu začnete přidávat souřadnice nové trasy!</VectorAdvice>
+        <BoundToggle>Zaměstnat pouze zaměstnance potřebné na trasách</BoundToggle>
+        <BoundTooltipHeading>Přijetí práce</BoundTooltipHeading>
+        <BoundTooltip>Je-li tato možnost povolena, přijímají uklizeči pouze úkoly v oblastech označených modrou barvou. Stále však mohou oblast opustit pro splnění úkolů jako např: odnesení pytle s odpadky, který se nachází uvnitř trasy.
+        
+Pokud je funkce vypnuta, nebudou ignorovat odpad, který je velmi blízko, ale mimo trasu. Stále se budou snažit sledovat cestu, ale mají větší flexibilitu při uklízení.</BoundTooltip>
+        <MinVectors>Musíte mít minimálně 2 souřadnicové body, než budete moci přiřadit uklízeče.</MinVectors>
+        <PatrolWarning>Alespoň jedna z vašich tras má nedosažitelný bod!</PatrolWarning>
+        <Failed>Trasa je chybná</Failed>
+        <MaxVectors>Maximální počet bodů přidán!</MaxVectors>
+        <Assigned>Přiřazen:</Assigned>
+        <AssignedTooltip>Momentálně máte naplánováno {0} uklizečů z celkových {1}.</AssignedTooltip>
+        <CannotPatrol>Tento typ personálu nemůže vyjít na trasu.</CannotPatrol>
+        <OnPatrol>Na trase</OnPatrol>
+        <PatrolNums>Počet tras</PatrolNums>
+        <MaxStaff>Potřeby zaměstnanců na trase</MaxStaff>
+    </Patrols>
+    <maxland>Dosáhli jste maximální velikosti mapy, nyní již nemůžete kupovat další pozemky!</maxland>
+    <errors>
+        <sector>
+            <sectorNotAccessible>Sektor není přístupný!</sectorNotAccessible>
+            <sectorCannotVacate>Sektor nelze uvolnit!</sectorCannotVacate>
+            <sectorCannotVacateInsecure>Sektor nemůže být uvolněn nezkontrolovaným cestujícím</sectorCannotVacateInsecure>
+            <sectorIsolated>Sektor je izolovaný a nedosažitelný</sectorIsolated>
+            <evacuatingFire>Sektor se evakuuje kvůli požáru!</evacuatingFire>
+        </sector>
+    </errors>
 </UI>

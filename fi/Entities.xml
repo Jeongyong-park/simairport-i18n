@@ -6,8 +6,8 @@
             <description>Serves products to customers at kiosk stands and stores.</description>
         </KioskWorker>
         <Chef>
-            <name>Chef</name>
-            <description>Cooks food in the kitchen and delivers it to services that sell food.</description>
+            <name>Kokki</name>
+            <description>Kokkaa ruokaa keittiössä ja toimittaa sen ruoan myyntipalveluille.</description>
         </Chef>
         <AirlineRep>
             <name>Sales Rep</name>
@@ -30,7 +30,7 @@
             <description>Vice President of Finance - Allows you to research tax related improvements.</description>
         </FinanceVP>
         <FlightAttendant>
-            <name>Flight Attendant</name>
+            <name>Lentoemäntä</name>
             <description></description>
         </FlightAttendant>
         <FoodWorker>
@@ -50,11 +50,11 @@
             <description></description>
         </Laborer>
         <Passenger>
-            <name>Passenger</name>
+            <name>Matkustaja</name>
             <description></description>
         </Passenger>
         <Pilot>
-            <name>Pilot</name>
+            <name>Pilotti</name>
             <description></description>
         </Pilot>
         <RampAgent>
@@ -75,7 +75,7 @@
         </VendorWorker>
         <Workman>
             <name>Workman</name>
-            <description>Handles all construction related tasks, moves unused boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
+            <description>Handles all construction related tasks, moves unneeded boxes to storage, and repairs objects around the airport. They can deliver luggage too if you don't have a luggage system!</description>
         </Workman>
         <BaggageCar>
             <name>Baggage Car</name>
@@ -86,27 +86,27 @@
             <description><!-- not used --></description>
         </BaggageCarTest>
         <DeliveryTruck>
-            <name>Delivery Truck</name>
+            <name>Toimitusrekka</name>
             <description><!-- not used --></description>
         </DeliveryTruck>
         <FuelDeliveryTruck>
-            <name>Fuel Delivery Truck</name>
+            <name>Polttoaineen Toimitusrekka</name>
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Polttoaine rekka</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
-            <name>Garbage Truck</name>
+            <name>Roska-auto</name>
             <description><!-- not used --></description>
         </GarbageTruck>
         <GolfCart>
-            <name>Golf Cart</name>
+            <name>Golfkärry</name>
             <description><!-- not used --></description>
         </GolfCart>
         <PassengerBus>
-            <name>Passenger Bus</name>
+            <name>Matkustaja linja-auto</name>
             <description><!-- not used --></description>
         </PassengerBus>
         <ApronBus>
@@ -114,11 +114,11 @@
             <description><!-- not used --></description>
         </ApronBus>
         <PassengerTaxi>
-            <name>Passenger Taxi</name>
+            <name>Matkustaja taksi</name>
             <description><!-- not used --></description>
         </PassengerTaxi>
         <PassengerVehicle>
-            <name>Passenger Vehicle</name>
+            <name>Henkilöauto</name>
             <description><!-- not used --></description>
         </PassengerVehicle>
         <SupplyTruck>
@@ -141,10 +141,10 @@
         
         <!-- non-placeable -->
         <DirtyFloor>
-            <name>Dirty Floor</name>
+            <name>Likainen Lattia</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Roskapussi</name>
         </TrashBag>
         
         
@@ -155,7 +155,7 @@
         </RunwayApproachLights>
         <RunwayILS>
             <name>Runway ILS</name>
-            <description>The Instrument Landing System allows larger airplanes to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
+            <description>Instrument Landing System allows larger airliners to conduct a precision instrument approach.  Maximum crosswind tolerance is increased from 12 to 20 Kt. This means fewer weather delays &amp; a lower risk of weather-related incidents.  It'll also help you attract the 'Big Boy' airlines.</description>
         </RunwayILS>
         <RunwayLights>
             <name>Runway Lights</name>
@@ -218,16 +218,16 @@
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process. Requires a scheduled retail worker.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
-            <description>Allows scheduling of more than 10 flights per day.</description>
+            <name>Lennonjohtotorni</name>
+            <description>Sallii yli kymmenen lennon ajoittamisen per päivä.</description>
         </ATCTower>
         <ATM>
-            <name>ATM</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <name>Pankkiautomaatti</name>
+            <description>Tekee matkustajat onnellisiksi tuottaen sinulle samalla $5 per kauppa.</description>
         </ATM>
         <BagScanner>
             <name>Bag Scanner</name>
-            <description>This X-Ray machine is used by your Security staff to scan passengers carry-on luggage for contraband and other security threats.</description>
+            <description>This X-Ray machine is used by your Security staff to scan passenger carry-ons for contraband and other security threats.</description>
         </BagScanner>
         <BaggageCarousel>
             <name>Baggage Carousel (from below)</name>
@@ -242,60 +242,60 @@
             <description>Connects to conveyor system one level above for an automated baggage solution.</description>
         </BaggageCarouselfromAbove>
         <Bar-Large>
-            <name>Bar - Large</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <name>Baari - Suuri</name>
+            <description>Janoiset matkustajat ostavat juomia täällä. Vaatii määräaikaisen kaupan työntekijän.</description>
         </Bar-Large>
         <Bar-Small>
-            <name>Bar - Small</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <name>Baari - Pieni</name>
+            <description>Janoiset matkustajat ostavat juomia täällä. Vaatii määräaikaisen kaupan työntekijän.</description>
         </Bar-Small>
         <Bench>
-            <name>Bench</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </Bench>
         <BenchB>
-            <name>Bench B</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki B</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchB>
         <BenchB-2Seat>
-            <name>Bench B - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki B - 2 Istuinta</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchB-2Seat>
         <BenchB-3Seat>
-            <name>Bench B - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki B - 3 Istuinta</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchB-3Seat>
         <BenchC>
-            <name>Bench C</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki C</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchC>
         <BenchC-2Seat>
-            <name>Bench C - 2 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki C - 2 Istuinta</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchC-2Seat>
         <BenchC-3Seat>
-            <name>Bench C - 3 Seat</name>
-            <description>Makes passengers happy by giving them a place to idle comfortably.</description>
+            <name>Penkki C - 3 Istuinta</name>
+            <description>Tekee matkustajat onnelliseksi antamalla heille paikan, jossa he voivat olla toimettomia mukavasti.</description>
         </BenchC-3Seat>
         <BodyScanner>
-            <name>Body Scanner</name>
-            <description>A more advanced alternative to a standard Metal Detector.</description>
+            <name>Vartalo Skanneri</name>
+            <description>Edistyneempi vaihtoehto tavalliselle metallinilmaisimelle.</description>
         </BodyScanner>
         <CafeChair>
-            <name>Cafe Chair</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Kahvila Tuoli</name>
+            <description>Antaa matkustajille paikan, jossa istua &amp; syödä.</description>
         </CafeChair>
         <CafeChairB>
-            <name>Cafe Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Kahvila Tuoli B</name>
+            <description>Antaa matkustajille paikan, jossa istua &amp; syödä.</description>
         </CafeChairB>
         <CafeTable>
-            <name>Cafe Table</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Kahvila Pöytä</name>
+            <description>Antaa matkustajille paikan, jossa istua &amp; syödä.</description>
         </CafeTable>
         <CafeTableB>
-            <name>Cafe Table B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Kahvila Pöytä B</name>
+            <description>Antaa matkustajille paikan, jossa istua &amp; syödä.</description>
         </CafeTableB>
         <ConferenceTable1>
             <name>Glass Conference Table</name>
@@ -322,8 +322,8 @@
             <description>Airline-sent executives will discuss important matters with your Sales Reps around these.</description>
         </ConferenceTable3Big>
         <CashRegister>
-            <name>Cash Register</name>
-            <description>Customers can pay for goods picked up in cafes and stores.</description>
+            <name>Kassakone</name>
+            <description>Asiakkaat voivat maksaa kahviloista ja kaupoista ottamansa tavarat.</description>
         </CashRegister>
         <FoodWarmer>
             <name>Hot Food Display</name>
@@ -334,35 +334,35 @@
             <description>Build in Cafes to show off your fresh food cooked by the kitchens! Passengers pick these up and take them to a cash register.</description>
         </FoodCooler>
         <ChairB>
-            <name>Chair B</name>
-            <description>Gives passengers a place to sit &amp; eat.</description>
+            <name>Tuoli B</name>
+            <description>Antaa matkustajille paikan, jossa istua &amp; syödä.</description>
         </ChairB>
         <CoffeeKiosk>
-            <name>Coffee Kiosk</name>
-            <description>Thirsty passengers buy drinks here. Requires a scheduled retail worker.</description>
+            <name>Kahvi Kioski</name>
+            <description>Janoiset matkustajat ostavat juomia täällä. Vaatii määräaikaisen kaupan työntekijän.</description>
         </CoffeeKiosk>
         <CoffeeMaker>
-            <name>Coffee Maker</name>
-            <description>Build in a cafe for passengers to use and reduce their thirst needs. They will pay at the cafe cash register.</description>
+            <name>Kahvi Kone</name>
+            <description>Rakenna kahvilaan käytettäväksi matkustajille vähentääkseen heidän janon tarvetta. He maksavat kassakoneella.</description>
         </CoffeeMaker>
         <CoffeeTableA>
-            <name>Coffee Table A</name>
+            <name>Kahvi Pöytä A</name>
             <description></description>
         </CoffeeTableA>
         <CoffeeTableB>
-            <name>Coffee Table B</name>
+            <name>Kahvi Pöytä B</name>
             <description></description>
         </CoffeeTableB>
         <CoffeeTableC>
-            <name>Coffee Table C</name>
+            <name>Kahvi Pöytä C</name>
             <description></description>
         </CoffeeTableC>
         <CoffeeTableD>
-            <name>Coffee Table D</name>
+            <name>Kahvi Pöytä D</name>
             <description></description>
         </CoffeeTableD>
         <CoffeeTableE>
-            <name>Coffee Table E</name>
+            <name>Kahvi Pöytä E</name>
             <description></description>
         </CoffeeTableE>
         <Cooker>
@@ -406,8 +406,8 @@
             <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
         </DecorativePalmTree>
         <DecorativePlant>
-            <name>Decorative Plant</name>
-            <description>Helps improve your airport appearance.</description>
+            <name>Koristekasvi</name>
+            <description>Auttaa parantamaan lentokentän ulkonäköä.</description>
         </DecorativePlant>
         <DecorativeStatueA>
             <name>Decorative Statue A</name>
@@ -438,8 +438,8 @@
             <description>Helps keep trash under control by increasing the capacity of your Garbage Zone.</description>
         </Dumpster>
         <ElectronicsVending>
-            <name>Electronics Vending</name>
-            <description>Makes passengers happy while earning you $5 per transaction.</description>
+            <name>Elektroniikan myyntiautomaatti</name>
+            <description>Tekee matkustajista iloisia, samalla tuottaa sinulle $5 per ostos.</description>
         </ElectronicsVending>
         <FancyChairA>
             <name>Fancy Chair A</name>
@@ -474,8 +474,8 @@
             <description>Provides the computing backend that powers all Flight Info Displays in your airport.</description>
         </FlightInfoServer>
         <FoodVending>
-            <name>Food Vending</name>
-            <description>Helps to satisfy hungry passengers while also earning you $5 per transaction.</description>
+            <name>Ruoka Myyntiautomaatti</name>
+            <description>Auttaa nälkäisiä matkustajia, samalla tuottaa sinulle $5 per ostos.</description>
         </FoodVending>
         <FountainDisplay>
             <name>Fountain Display</name>
@@ -562,23 +562,23 @@
             <description></description>
         </OutdoorPoleLight>
         <PAAmplifier>
-            <name>PA Amplifier</name>
+            <name>PA-Vahvistin</name>
             <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!</description>
         </PAAmplifier>
         <PAAmplifierHD>
-            <name>PA Amplifier HD</name>
+            <name>PA-Vahvistin HD</name>
             <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though too many announcements may annoy passengers a bit too!  This HD version allows for more speakers &amp; gates, and has slightly better sound quality.</description>
         </PAAmplifierHD>
         <PASpeaker>
-            <name>PA Speaker</name>
+            <name>PA-Kaiutin</name>
             <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!   Broadcasts a 'cone' of sound.</description>
         </PASpeaker>
         <PASpeaker2-Way>
-            <name>PA Speaker 2-Way</name>
+            <name>PA-Kaiutin Kaksisuuntainen</name>
             <description>Public Address Systems provide announcements, boarding calls, and last-minute information.  Helps prevent missed flights, though may annoy pax a bit too!  This is a bi-directional speaker that broadcasts two "cones of sound" in opposite directions.</description>
         </PASpeaker2-Way>
         <PhoneChargerStation>
-            <name>Phone Charger Station</name>
+            <name>Puhelimen Latausasema</name>
             <description>Pax phones left with only 5% after the latest software update?  This is what they need!
 
         Helps passengers avoid boredom and frustration, but is also costly to run &amp; to maintain.</description>
@@ -588,19 +588,19 @@
             <description>New York Style pizza, yum! Hire Retail Workers to serve customers. Requires an assigned kitchen to cook orders!</description>
         </PizzaJoint>
         <PizzaOven>
-            <name>Pizza Oven</name>
+            <name>Pizzauuni</name>
             <description>Prepares Pizza and expands your kitchen's food capabilities.</description>
         </PizzaOven>
         <Plant1>
-            <name>Plant 1</name>
+            <name>Kasvi 1</name>
             <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
         </Plant1>
         <Plant2>
-            <name>Plant 2</name>
+            <name>Kasvi 2</name>
             <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
         </Plant2>
         <Plant3>
-            <name>Plant 3</name>
+            <name>Kasvi 3</name>
             <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
         </Plant3>
         <PrepCart>
@@ -612,12 +612,12 @@
             <description>These must be placed in your kitchen to allow hot food to be stored while it waits to be delivered.</description>
         </HotPlate>
         <Refrigerator>
-            <name>Refrigerator</name>
-            <description>Adds Pizza, Sushi, and Donuts to kitchen capabilities.</description>
+            <name>Jääkaappi</name>
+            <description>Lisää Pizzan, Sushin ja Munkit keittiön kykyihin.</description>
         </Refrigerator>
         <RemoteBagScanner>
             <name>Remote Bag Scanner</name>
-            <description>This advanced X-Ray machine is also used by your Security staff to scan passengers carry-on luggage for contraband and other security threats, but this one requires a Remote Security Station to be used.</description>
+            <description>This advanced X-Ray machine is also used by your Security staff to scan passenger carry-ons for contraband and other security threats, but this one requires a Remote Security Station to be used.</description>
         </RemoteBagScanner>
         <RemoteSecurityStation>
             <name>Remote Security Station</name>
@@ -628,11 +628,11 @@
             <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
         </SecurityExit>
         <Sink>
-            <name>Sink</name>
+            <name>Lavuaari</name>
             <description>Passengers use the sink to rinse their hands or cleanse their face any time they're feeling a bit dirty.</description>
         </Sink>
         <SlidingDoor>
-            <name>Sliding Door</name>
+            <name>Liukuovi</name>
             <description>A small commercial-grade yet cost-effective automatic sliding glass door.  Not too big, not too small.</description>
         </SlidingDoor>
         <SmallHangar>
@@ -640,19 +640,19 @@
             <description>A small hangar with just 1 vehicle spot.</description>
         </SmallHangar>
         <SnackKiosk>
-            <name>Snack Kiosk</name>
+            <name>Välipalakioski</name>
             <description>Hire Retail Workers here to sell Crisps. Requires an assigned kitchen to box and send them!</description>
         </SnackKiosk>
         <StaffDoor>
-            <name>Staff Door</name>
+            <name>Henkilökunnan Ovi</name>
             <description>Doors can be placed on top of a wall &amp; used to separate different adjoining rooms or areas of your airport.  Only your airport Staff can use this door!</description>
         </StaffDoor>
         <StorageShelf>
-            <name>Storage Shelf</name>
+            <name>Varastohylly</name>
             <description>Helps with supply management by increasing the capacity of your Supplies Zone.</description>
         </StorageShelf>
         <SushiKiosk>
-            <name>Sushi Kiosk</name>
+            <name>Sushi-Kioski</name>
             <description>Hire Retail Workers here to sell Sushi. Requires an assigned kitchen to make them!</description>
         </SushiKiosk>
         <TicketingDesk>
@@ -660,7 +660,7 @@
             <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
         </TicketingDesk>
         <TicketingKiosk>
-            <name>Ticketing Kiosk</name>
+            <name>Lippukioski</name>
             <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
         </TicketingKiosk>
         <ToiletStall>
@@ -672,24 +672,24 @@
             <description>Contains 3 standard toolboxes.</description>
         </ToolboxLocker>
         <Tree1>
-            <name>Tree1</name>
+            <name>Puu1</name>
             <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
         </Tree1>
         <Tree2>
-            <name>Tree2</name>
+            <name>Puu2</name>
             <description>Strong and mighty, this is a very nice tree and adds a great aesthetic punch to any airport.</description>
         </Tree2>
         <Tree3>
-            <name>Tree3</name>
+            <name>Puu3</name>
             <description>A classier tree for a classy airport, this tree is visually quite appealing.</description>
         </Tree3>
         <Urinal>
-            <name>Urinal</name>
+            <name>Pisoaari</name>
             <description>Satisfies male passengers' bladder needs.</description>
         </Urinal>
 		<Crosswalk>
-            <name>Cross Walk</name>
-            <description>Why do the passengers cross the street?  To access the services you provide on the other side!</description>
+            <name>Suojatie</name>
+            <description>Miksi matkustajat ylittävät kadun?  Päästäkseen käyttämään toisella puolella tarjoamiasi palveluita!</description>
         </Crosswalk>
     
         <!-- utilities -->
@@ -721,7 +721,7 @@
             <description>Provide your Fuel Trucks with access to the fuel in your networked storage tanks.  Allows refueling services to be offered by your airport.</description>
         </FuelingStation>
         <FuelTank>
-            <name>Fuel Tank</name>
+            <name>Polttoainetankki</name>
             <description>An outdoor jet fuel storage reservoir. Used to support refueling operations.</description>
         </FuelTank>
         <LargeFuelTank>
@@ -730,28 +730,28 @@
         </LargeFuelTank>
 
         <Stairs>
-            <name>Stairway</name>
-            <description>A stairway that allows your passengers to travel between two floors.</description>
+            <name>Portaat</name>
+            <description>Portaikko, jonka avulla matkustajat voivat matkustaa kahden kerroksen välillä.</description>
         </Stairs>
         <StairsUp>
-            <name>Stairway Up</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor above.</description>
+            <name>Portaat Ylös</name>
+            <description>Portaikko, joka kyseiselle kerrokselle laitettuna sallii matkustajiesi pääsyn ylemmältä kerrokselta.</description>
         </StairsUp>
         <StairsDown>
-            <name>Stairway Down</name>
-            <description>A stairway that, when placed on the current floor, allows your passengers to travel to and from the floor below.</description>
+            <name>Portaat Alas</name>
+            <description>Portaikko, joka kyseiselle kerrokselle laitettuna sallii matkustajiesi pääsyn alemmalta kerrokselta.</description>
         </StairsDown>
         <Escalator>
-            <name>Escalator</name>
-            <description>An electronic escalator that allows your passengers to travel between two floors.  Only allows travel in one direction.</description>
+            <name>Liukuportaat</name>
+            <description>Sähköinen liukuporras, jonka avulla matkustajat voivat matkustaa kahden kerroksen välillä.  Sallii vain yhteen suuntaan liikkumisen.</description>
         </Escalator>
         <EscalatorUp>
-            <name>Escalator Up</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly above.  Only allows travel in one direction.</description>
+            <name>Liukuportaat Ylös</name>
+            <description>Sähköinen liukuporras, joka sallii matkustajien pääsyn kyseiseen kerrokseen sen yläpuolelta. Sallii vain yhteen suuntaan liikkumisen.</description>
         </EscalatorUp>
         <EscalatorDown>
-            <name>Escalator Down</name>
-            <description>An electronic escalator that allows your passengers to travel from the floor it is placed on to the floor directly below.  Only allows travel in one direction.</description>
+            <name>Liukuportaat Alas</name>
+            <description>Sähköinen liukuporras, joka sallii matkustajien pääsyn kyseiseen kerrokseen sen alapuolelta. Sallii vain yhteen suuntaan liikkumisen.</description>
         </EscalatorDown>
         
         <ConveyorDown>
@@ -812,17 +812,17 @@
         </FlightInfoKiosk>
 
         <RoadRamp>
-            <name>Road Ramp</name>
-            <description>Allows roads to transition a single level.</description>
+            <name>Tieramppi</name>
+            <description>Mahdollistaa tien siirtymisen yhdellä tasolla.</description>
         </RoadRamp>
         
         <RoadRampUp>
-            <name>Road Ramp Up</name>
-            <description>Allows roads to transition up a single level.</description>
+            <name>Tieramppi Ylös</name>
+            <description>Mahdollistaa tien siirtymisen ylöspäin yhdellä kerroksella.</description>
         </RoadRampUp>
         <RoadRampDown>
-            <name>Road Ramp Down</name>
-            <description>Allows roads to transition down a single level.</description>
+            <name>Tieramppi Alas</name>
+            <description>Mahdollistaa tien siirtymisen alaspäin yhdellä kerroksella.</description>
         </RoadRampDown>
         <UndergroundFuelTank>
             <name>Underground Fuel Tank</name>
@@ -904,124 +904,36 @@
             <description>Display Reuse Description DO NOT MODIFY</description>
         </JewelryDisplayC>
         <ConcreteRunway>
-            <name>Concrete Runway</name>
-            <description>Concrete runways are good.</description>
+            <name>Betoninen Kiitotie</name>
+            <description>Betoniset kiitotiet ovat hyviä.</description>
         </ConcreteRunway>
         <AsphaltRunway>
-            <name>Asphalt Runway</name>
-            <description>Asphalt runways are not quite as good, but still not bad.</description>
+            <name>Asfalttinen Kiitotie</name>
+            <description>Asfalttiset kiitotiet eivät ole aivan yhtä hyviä, mutta eivät kuitenkaan huonoja.</description>
         </AsphaltRunway>
         <OneWayPath>
             <name>One Way Path</name>
             <description>Control the paths that your passengers take when navigating throughout your airport.  Plan carefully when using and remember that pax must always have a path to leave/exit your airport -- in case of missed flight or an emergency!</description>
         </OneWayPath>
-      
-      <!-- Frequent Flyer Pack Placeables -->
-      <DLCBench>
-        <name>Bench D</name>
-        <description>Makes passengers happy by giving them a place to idle comfortably.</description>
-      </DLCBench>
-      
-      <DLCBushA>
-        <name>Decorative Bush 9</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCBushA>
-      <DLCBushB>
-        <name>Decorative Bush 10</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCBushB>
-      <DLCBushC>
-        <name>Decorative Bush 11</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCBushC>
-      <DLCBushD>
-        <name>Decorative Bush 12</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCBushD>
-      <DLCCactus>
-        <name>Cactus</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCCactus>
-      
-      <DLCDecorA>
-        <name>Planter A</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCDecorA>
-      <DLCDecorB>
-        <name>Planter B</name>
-        <description>A beautiful decorative plant.  Some passengers may appreciate the attention to detail and it may improve their experience at your airport.</description>
-      </DLCDecorB>
-      
-      <DLCPalm>
-        <name>Decorative Palm</name>
-        <description>A very classy decoration that will definitely give your airport that WOW factor.  The higher class passengers may especially appreciate the eco-friendly decor.</description>
-      </DLCPalm>
-      <DLCPine>
-        <name>Decorative Pine</name>
-        <description>A very nice touch.  It almost looks like a Christmas tree, but it's in season all year around.  Passengers often appreciate these kinds of things.</description>
-      </DLCPine>
-      
-      <DLCStatueA>
-        <name>Decorative Statue C</name>
-        <description>A beautiful, modern decorative statue. </description>
-      </DLCStatueA>
-      <DLCStatueB>
-        <name>Decorative Statue D</name>
-        <description>A beautiful, modern decorative statue. </description>
-      </DLCStatueB>
-      <DLCStatueC>
-        <name>Decorative Statue E</name>
-        <description>A beautiful, modern decorative statue. </description>
-      </DLCStatueC>
-      
-      <DLCTicketingDesk>
-        <name>Ticketing Desk B</name>
-        <description>Passengers come here to get their Boarding Pass &amp; to check their baggage.  Your Staff will work at these desk to assist the passengers with the check-in process.</description>
-      </DLCTicketingDesk>
-      <DLCTicketingKiosk>
-        <name>Ticketing Kiosk B</name>
-        <description>Passengers that don't have checked luggage are able to use the automated Ticketing Kiosk to print their boarding pass without needing assistance from a Staff member.</description>
-      </DLCTicketingKiosk>
-      
-      <DLCTreeA>
-        <name>Tree4</name>
-        <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
-      </DLCTreeA>
-      <DLCTreeB>
-        <name>Tree5</name>
-        <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
-      </DLCTreeB>
-      <DLCTreeC>
-        <name>Tree6</name>
-        <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
-      </DLCTreeC>
-      <DLCTreeD>
-        <name>Tree7</name>
-        <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
-      </DLCTreeD>
-      <DLCTreeE>
-        <name>Tree8</name>
-        <description>A very nice and fairly strong tree.  Provides an improved aesthetic that your passengers may or may not appreciate.</description>
-      </DLCTreeE>
     </Objects>
     <Foods>
-        <Pizza>Pizza</Pizza>
+        <Pizza>Pitsa</Pizza>
         <Sushi>Sushi</Sushi>
-        <AvacadoonToast>Avocado On Toast</AvacadoonToast>
-        <Crisps>Crisps</Crisps>
-        <Donut>Donuts</Donut>
-        <Coffee>Coffee</Coffee>
+        <AvacadoonToast>Avokado Paahtoleipä</AvacadoonToast>
+        <Crisps>Sipsit</Crisps>
+        <Donut>Donitsit</Donut>
+        <Coffee>Kahvi</Coffee>
         <Lemonade>Fizzy Lemonade</Lemonade>
         <Coke>Cola</Coke>
     </Foods>
     <Products>
-        <Book>Books</Book>
-        <Candy>Candy</Candy>
-        <Clothing>Clothing</Clothing>
-        <Jewelry>Jewelry</Jewelry>
-        <Makeup>Makeup</Makeup>
-        <Medicine>Medicine</Medicine>
-        <Souvenir>Souvenirs</Souvenir>
-        <Shoes>Shoes</Shoes>
+        <Book>Kirjat</Book>
+        <Candy>Karkki</Candy>
+        <Clothing>Vaatetus</Clothing>
+        <Jewelry>Korut</Jewelry>
+        <Makeup>Meikki</Makeup>
+        <Medicine>Lääke</Medicine>
+        <Souvenir>Matkamuistot</Souvenir>
+        <Shoes>Kengät</Shoes>
     </Products>
 </Entities>

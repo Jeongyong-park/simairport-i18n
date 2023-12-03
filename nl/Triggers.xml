@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Triggers>
+    <Hold>Hou gedurende {0} uur vol.</Hold>
+    <HoldSingle>Hou gedurende 1 uur vol.</HoldSingle>
+    <FailAfter>Faal na {0} uur.</FailAfter>
+    <FailAfterSingle>Faal na 1 uur.</FailAfterSingle>
+    <Completed>Voltooid!</Completed>
+    <Failed>Gefaald!</Failed>
+    <Objectives>
+        <Cash>Behaal een cash balans van {0} (exclusief leningen).</Cash>
+        <CashEditor>Behaal een cash balans van...</CashEditor>
+        <Gates>Bezit {0} vliegtuiggates.</Gates>
+        <GatesEditor>Bezit een aantal vliegtuiggates.</GatesEditor>
+        <Runways>Bezit {0} start- en landingsbanen.</Runways>
+        <RunwaysEditor>Bezit een aantal start- en landingsbanen.</RunwaysEditor>
+        <Satisfaction>Behaal {0}% totale passagierstevredenheid.</Satisfaction>
+        <SatisfactionEditor>Behaal een percentage totale passagierstevredenheid.</SatisfactionEditor>
+        <PaxCount>Heb {0} passagiers tegelijkertijd in je luchthaven.</PaxCount>
+        <PaxCountEditor>Heb een aantal passagiers tegelijkertijd in je luchthaven.</PaxCountEditor>
+        <NoDebts>Heb niet meer dan {0} in schuld vanwege lengingen.</NoDebts>
+        <NoDebtsEditor>Heb niet meer schuld vanwege lengingen dan...</NoDebtsEditor>
+        <PlaneCount>Bedien een totaal van {0} vliegtuigen.</PlaneCount>
+        <PlaneCountEditor>Bedien een aantal vliegtuigen in totaal.</PlaneCountEditor>
+        <HireStaff>Heb een totaal van {0} personeel.</HireStaff>
+        <HireStaffEditor>Heb een totaal aantal personeel.</HireStaffEditor>
+        <Refuel>Tank vliegtuigen met een totaal van {0} liter brandstof.</Refuel>
+        <RefuelEditor>Tank vliegtuigen met een totaal aantal liter brandstof.</RefuelEditor>
+    </Objectives>
+    <Rewards>
+        <NoReward>Geen beloning</NoReward>
+        <Unlock>Ontsluiten</Unlock>
+    </Rewards>
+    <LoseConditions>
+        <Satisfaction>Heb een passagierstevredenheid niet lager dan {0}.</Satisfaction>
+        <SatisfactionEditor>Heb een passagierstevredenheid niet lager dan...</SatisfactionEditor>
+        <Time>Volbreng alle doelen voor Dag {0}.</Time>
+        <TimeEditor>Volbreng alle doelen voor een bepaalde dag.</TimeEditor>
+        <Cancelled>Heb niet meer dan {0} annulaties van vluchten.</Cancelled>
+        <CancelledEditor>Heb niet meer dan een aantal annulaties van vluchten.</CancelledEditor>
+        <Delayed>Heb niet meer dan {0} vertraagde vluchten.</Delayed>
+        <DelayedEditor>Heb niet meer dan een aantal vertraagde vluchten.</DelayedEditor>
+        <PaxMissed>Laat niet meer dan {0} pax hun vlucht missen.</PaxMissed>
+        <PaxMissedEditor>Laat niet te veel pax hun vlucht missen.</PaxMissedEditor>
+    </LoseConditions>
+    <Consequences>
+        <LoseGame>Verlies het level.</LoseGame>
+        <Fined>Beboet</Fined>
+    </Consequences>
+</Triggers>
